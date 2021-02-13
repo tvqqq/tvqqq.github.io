@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[Quyen Tat]]></title><description><![CDATA[Making the life much simpler and happier 🌟]]></description><link>https://quyentat.github.io/</link><image><url>https://quyentat.github.io/undefined</url><title>Quyen Tat</title><link>https://quyentat.github.io/</link></image><generator>Ghost 2.9</generator><lastBuildDate>Sat, 13 Feb 2021 14:37:28 GMT</lastBuildDate><atom:link href="https://quyentat.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Welcoming to write third post]]></title><description><![CDATA[This article is about different typography which are supported in the post section of the blog. 
+Below you can see the various headings…]]></description><link>welcoming-post-third</link><guid isPermaLink="true">welcoming-post-third</guid><dc:creator><![CDATA[Akansh Gulati]]></dc:creator><pubDate>Fri, 29 Nov 2019 18:30:00 GMT</pubDate><media:content url="https://quyentat.github.io/static/c70aaee4fd937cc2e7e24f403412d575/ec873/welcoming-third-post-feature-image.png" medium="image"/><content:encoded><![CDATA[<img src="https://quyentat.github.io/static/c70aaee4fd937cc2e7e24f403412d575/ec873/welcoming-third-post-feature-image.png"/><p>This article is about different typography which are supported in the post section of the blog.
+Below you can see the various headings, paragraphs, code snippet examples, etc.</p>
+<h1>An h1 header</h1>
+<p>Paragraphs are separated by a blank line.</p>
+<p>2nd paragraph. <em>Italic</em>, <strong>bold</strong>, and <code class="language-text">monospace</code>. Itemized lists
+look like:</p>
+<ul>
+<li>this one</li>
+<li>that one</li>
+<li>the other one</li>
+</ul>
+<p>Note that --- not considering the asterisk --- the actual text
+content starts at 4-columns in.</p>
+<blockquote>
+<p>Block quotes are
+written like so.</p>
+<p>They can span multiple paragraphs,
+if you like.</p>
+</blockquote>
+<p>Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
+in chapters 12--14"). Three dots ... will be converted to an ellipsis.
+Unicode is supported. ☺</p>
+<h2>An h2 header</h2>
+<p>Here's a numbered list:</p>
+<ol>
+<li>first item</li>
+<li>second item</li>
+<li>third item</li>
+</ol>
+<p>Note again how the actual text starts at 4 columns in (4 characters
+from the left side). Here's a code sample:</p>
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python"><span class="token comment"># Let me re-iterate ...</span>
+<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token number">1</span> <span class="token punctuation">.</span><span class="token punctuation">.</span> <span class="token number">10</span> <span class="token punctuation">{</span> do<span class="token operator">-</span>something<span class="token punctuation">(</span>i<span class="token punctuation">)</span> <span class="token punctuation">}</span></code></pre></div>
+<p>As you probably guessed, indented 4 spaces. By the way, instead of
+indenting the block, you can use delimited blocks, if you like:</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js">define <span class="token function">foobar</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    print <span class="token string">"Welcome to flavor country!"</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>(which makes copying &#x26; pasting easier). You can optionally mark the
+delimited block for Pandoc to syntax highlight it:</p>
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python"><span class="token keyword">import</span> time
+<span class="token comment"># Quick, count to ten!</span>
+<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token comment"># (but not *too* quick)</span>
+    time<span class="token punctuation">.</span>sleep<span class="token punctuation">(</span><span class="token number">0.5</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span></code></pre></div>
+<h3>An h3 header</h3>
+<p>Now a nested list:</p>
+<ol>
+<li>
+<p>First, get these ingredients:</p>
+<ul>
+<li>carrots</li>
+<li>celery</li>
+<li>lentils</li>
+</ul>
+</li>
+<li>Boil some water.</li>
+<li>
+<p>Dump everything in the pot and follow
+this algorithm:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">find wooden spoon
+uncover pot
+stir
+cover pot
+balance wooden spoon precariously on pot handle
+wait 10 minutes
+goto first step (or shut off burner when done)</code></pre></div>
+<p>Do not bump wooden spoon or it will fall.</p>
+</li>
+</ol>
+<h3>Image with Alt</h3>
+<p><img src="https://user-images.githubusercontent.com/21834/34442433-6afc7594-ecc2-11e7-9277-c4a6602a3067.png" alt="Alt text of the image"/></p>]]></content:encoded></item><item><title><![CDATA[Welcoming to write second post]]></title><description><![CDATA[This week we’ll take a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual…]]></description><link>welcoming-post-second</link><guid isPermaLink="true">welcoming-post-second</guid><dc:creator><![CDATA[Akansh Gulati]]></dc:creator><pubDate>Wed, 13 Nov 2019 18:30:00 GMT</pubDate><media:content url="https://quyentat.github.io/static/d34f128a2b589259e5ca23871f7ce715/ba299/welcoming-post-second-feature-image.png" medium="image"/><content:encoded><![CDATA[<img src="https://quyentat.github.io/static/d34f128a2b589259e5ca23871f7ce715/ba299/welcoming-post-second-feature-image.png"/><p>This week we’ll <strong>take</strong> a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and which continues to be manufactured by the Chemex Corporation in Chicopee, Massachusetts.</p>
+<p>In 1958, designers at the <a href="https://www.spacefarm.digital" target="_blank">Illinois Institute of Technology</a> said that the Chemex Coffeemaker is <em>"one of the best-designed products of modern times"</em>, and so is included in the collection of the Museum of Modern Art in New York City.</p>
+<h2>The little secrets of Chemex brewing</h2>
+<p>The Chemex Coffeemaker consists of an hourglass-shaped glass flask with a conical funnel-like neck (rather than the cylindrical neck of an Erlenmeyer flask) and uses proprietary filters, made of bonded paper (thicker-gauge paper than the standard paper filters for a drip-method coffeemaker) that removes most of the coffee oils, brewing coffee with a taste that is different than coffee brewed in other coffee-making systems; also, the thicker paper of the Chemex coffee filters may assist in removing cafestol, a cholesterol-containing compound found in coffee oils. Here’s three important tips newbies forget about:</p>
+<ol>
+<li>Always buy dedicated Chemex filters.</li>
+<li>Use a scale, don’t try to eyeball it.</li>
+<li>Never skip preheating the glass.</li>
+<li>Timing is key, don’t forget the clock.</li>
+</ol>
+<p>The most visually distinctive feature of the Chemex is the heatproof wooden collar around the neck, allowing it to be handled and poured when full of hot water. This is turned, then split in two to allow it to fit around the glass neck. The two pieces are held loosely in place by a tied leather thong. The pieces are not tied tightly and can still move slightly, retained by the shape of the conical glass.</p>
+<p>For a design piece that became popular post-war at a time of Modernism and precision manufacture, this juxtaposition of natural wood and the organic nature of a hand-tied knot with the laboratory nature of glassware was a distinctive feature of its appearance.</p>]]></content:encoded></item><item><title><![CDATA[Welcoming to write first post]]></title><description><![CDATA[Welcome to gatsby-starter! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique lacus vitae diam posuere faucibus. In…]]></description><link>welcoming-to-first-article</link><guid isPermaLink="true">welcoming-to-first-article</guid><dc:creator><![CDATA[Akansh Gulati]]></dc:creator><pubDate>Sun, 09 Jun 2019 18:30:00 GMT</pubDate><media:content url="https://quyentat.github.io/static/21e2ebff6862b2ff509ae2dd9a28c002/b7bdc/network-world.png" medium="image"/><content:encoded><![CDATA[<img src="https://quyentat.github.io/static/21e2ebff6862b2ff509ae2dd9a28c002/b7bdc/network-world.png"/><p>Welcome to gatsby-starter!</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique lacus vitae diam posuere faucibus. In hac habitasse platea dictumst. Ut id arcu non risus tincidunt commodo. Sed felis leo, pharetra non porttitor sodales, sodales dictum tortor. Vivamus vel neque interdum, egestas urna ac, finibus tellus. Morbi et rhoncus ligula, nec volutpat dolor. Cras efficitur ipsum a facilisis laoreet. Duis ut libero eget mi convallis maximus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque blandit sit amet erat vel semper.</p>
+<p>Ut egestas nisl in nunc accumsan, et interdum erat finibus. Fusce commodo ex nec imperdiet fermentum. Suspendisse non nulla eu eros rutrum vestibulum. Curabitur sit amet tortor venenatis, efficitur felis non, commodo urna. Aliquam ut auctor risus. Nullam nec felis pellentesque, tincidunt erat ut, aliquam neque. Ut elementum aliquam leo.</p>
+<p>Pellentesque sit amet purus a erat tincidunt elementum. Mauris lobortis egestas tellus, vel blandit tortor pellentesque at. Suspendisse potenti. Aenean vehicula, dolor ac interdum fermentum, velit elit fermentum nisi, in hendrerit nisi dolor semper est. Cras ullamcorper eros nec lacus maximus, a tincidunt ipsum feugiat. Quisque dignissim bibendum orci nec vestibulum. Phasellus accumsan eleifend posuere. Aliquam urna neque, auctor id accumsan nec, viverra vel tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sagittis libero ut porttitor lobortis. Nam nec felis tellus. Praesent ipsum ipsum, consectetur non hendrerit non, egestas et felis.</p>
+<p>Donec pretium facilisis orci, vitae blandit ex gravida a. Etiam a augue urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce finibus urna lectus, eu iaculis massa tempus non. Maecenas in lectus massa. In ut ipsum eleifend, condimentum libero ut, ultricies massa. Integer viverra fringilla sem. Mauris nulla mi, accumsan sed hendrerit ut, tincidunt quis neque. Nullam egestas sem neque, id porta nunc sagittis quis.</p>
+<p>Morbi libero sem, molestie nec volutpat ac, volutpat eget dui. Phasellus ante turpis, blandit accumsan facilisis volutpat, bibendum vehicula metus. Fusce pellentesque orci ac imperdiet vestibulum. Aenean aliquam et elit sit amet eleifend. Vivamus libero lacus, porta quis neque a, tincidunt cursus lorem. Nulla placerat gravida nulla, in vestibulum risus lobortis ut. Proin sit amet varius arcu. Sed tincidunt vitae lectus vitae pretium. Fusce malesuada nec diam blandit pharetra. Vivamus fringilla elit ut odio sollicitudin, a convallis nulla dictum. Proin porta nisi eu cursus hendrerit. Donec vel tortor at magna maximus placerat gravida nec ligula.</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> plop <span class="token operator">=</span> <span class="token string">"coucou"</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> toto <span class="token operator">=</span> <span class="token string">"tata"</span><span class="token punctuation">;</span></code></pre></div>]]></content:encoded></item></channel></rss>
