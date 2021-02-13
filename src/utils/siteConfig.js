@@ -31,7 +31,7 @@ module.exports = {
         },
     ],
 
-    googleAnalyticsId: "", // ADD_COMPLETE_TRACKING_ID => UA-151385213-1
+    googleAnalyticsId: "UA-151385213-1", // ADD_COMPLETE_TRACKING_ID => UA-151385213-1
 
     disqusShortname: "" // ADD_SHORT_NAME => https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 }
