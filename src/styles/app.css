@@ -869,6 +869,12 @@ h6 {
     background: rgb(16, 14, 23);
 }
 
+.site-head.home {
+    background: url('/images/cover.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
 .site-nav-item {
     display: inline-block;
     padding: 5px 10px;
@@ -887,7 +893,15 @@ h6 {
 }
 
 .site-logo {
-    height: 25px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: rgb(39 44 49 / 7%) 8px 28px 50px, rgb(39 44 49 / 4%) 1px 6px 12px;
+}
+
+.site-logo.not-home {
+    height: 30px;
+    margin-bottom: 5px;
 }
 
 .site-mast {
@@ -909,7 +923,7 @@ h6 {
 .site-banner {
     max-width: 80%;
     margin: 0 auto;
-    padding: 10vw 0;
+    padding: 2vw 0;
     text-align: center;
 }
 
@@ -922,11 +936,11 @@ h6 {
 }
 
 .site-banner-desc {
-    margin: 5px 0 0 0;
+    margin: 7px 0 0 0;
     padding: 0;
-    font-size: 2.4rem;
+    font-size: 1.5rem;
     line-height: 1.3em;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .site-nav {

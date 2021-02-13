@@ -83,7 +83,7 @@ export const pageQuery = graphql`
                 html
                 frontmatter {
                   title
-                  date
+                  date(formatString: "MMMM DD, YYYY")
                   draft
                   feature_image {
                     childImageSharp {
@@ -116,6 +116,7 @@ export const pageQuery = graphql`
                       id
                       frontmatter {
                           name
+                          slug
                       }
                   }
                 }

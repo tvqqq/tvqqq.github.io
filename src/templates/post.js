@@ -28,7 +28,7 @@ class Post extends React.Component {
             }
         })
     }
-    render(){
+    render() {
         const { data, location } = this.props
         const post = data.markdownRemark
         const disqusShortname = config.disqusShortname
@@ -47,15 +47,15 @@ class Post extends React.Component {
                                 <div className="post-full-meta">
                                     <time
                                         className="post-full-meta-date"
-                                        dateTime="{post.frontmatter.published_at}"
+                                        dateTime="{post.frontmatter.date}"
                                     >
-                                        {post.frontmatter.published_at}
+                                        {post.frontmatter.date}
                                     </time>
 
                                     {post.frontmatter.tags.map(({ frontmatter }) => (
                                         <span key={frontmatter.name}>
                                             <span className="date-divider">/</span>
-                                            <Link to={`tag/${frontmatter.slug}`}>{frontmatter.name}</Link>
+                                            <Link to={`/tag/${frontmatter.slug}`}>{frontmatter.name}</Link>
                                         </span>
                                     ))}
                                 </div>
@@ -66,7 +66,7 @@ class Post extends React.Component {
                             {post.frontmatter.feature_image ? (
                                 <figure className="post-feature-image">
                                     {post.frontmatter.feature_image && post.frontmatter.feature_image.childImageSharp &&
-                                    <Img fluid={post.frontmatter.feature_image.childImageSharp.fluid}/>
+                                        <Img fluid={post.frontmatter.feature_image.childImageSharp.fluid} />
                                     }
                                     {/* <img
                                     src={post.frontmatter.feature_image}
@@ -88,7 +88,7 @@ class Post extends React.Component {
                                 />
                             </section>
                         </article>
-                        {post.frontmatter.comment && !this.state.commentsEnabled && disqusShortname && <div className="show-comment-button" onClick={this.showComments}>Show Comments</div> }
+                        {post.frontmatter.comment && !this.state.commentsEnabled && disqusShortname && <div className="show-comment-button" onClick={this.showComments}>Show Comments</div>}
                         {post.frontmatter.comment && this.state.commentsEnabled && disqusShortname && <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />}
                     </div>
                 </Layout>

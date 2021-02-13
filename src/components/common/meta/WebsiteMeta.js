@@ -17,7 +17,7 @@ const WebsiteMeta = ({ data, canonical, name, description, image, type }) => {
     shareImage = shareImage ? url.resolve(config.siteUrl, shareImage) : null
 
     description = description || data.meta_description || data.description || config.siteDescriptionMeta || config.siteDescriptionMeta
-    const title = `${name} - ${config.siteTitleMeta}`
+    const title = `${name} - ${description}`
 
     return (
         <>
@@ -57,16 +57,15 @@ const WebsiteMeta = ({ data, canonical, name, description, image, type }) => {
                         "@context": "https://schema.org/",
                         "@type": "${type}",
                         "url": "${canonical}",
-                        ${
-                            shareImage
-                                ? `"image": {
+                        ${shareImage
+                        ? `"image": {
                                 "@type": "ImageObject",
                                 "url": "${shareImage}",
                                 "width": "${config.shareImageWidth}",
                                 "height": "${config.shareImageHeight}"
                             },`
-                                : ``
-                        }
+                        : ``
+                    }
                         "publisher": {
                             "@type": "Organization",
                             "name": "${config.siteTitleMeta}",

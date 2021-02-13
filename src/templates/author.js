@@ -98,13 +98,6 @@ export const pageQuery = graphql`
                                 }
                               }
                         }
-                        author {
-                            frontmatter {
-                                name
-                                profile_image
-                                description
-                            }
-                        }
                     }
                     excerpt
                 }

@@ -16,7 +16,7 @@ const Tag = ({ data, location, pageContext }) => {
 
     const tagName = pageContext.tag.name
     const tagDescription = pageContext.tag.description
-    
+
     const posts = data.allMarkdownRemark.edges.filter(({ node }) => node.excerpt)
 
     return (
@@ -32,7 +32,7 @@ const Tag = ({ data, location, pageContext }) => {
             <Layout>
                 <div className="container">
                     <header className="tag-header">
-                        <h1>{tagName}</h1>
+                        <h1>#{tagName}</h1>
                         {tagDescription ? <p>{tagDescription}</p> : null}
                     </header>
                     <section className="post-feed">
