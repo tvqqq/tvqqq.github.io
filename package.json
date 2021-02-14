@@ -69,8 +69,8 @@
     "gatsby-source-ghost": "3.3.3",
     "gatsby-transformer-remark": "^2.3.12",
     "gatsby-transformer-sharp": "2.1.19",
-    "lodash": "4.17.11",
-    "react-helmet": "5.2.1",
-    "prismjs": "^1.16.0"
+    "lodash": "^4.17.20",
+    "prismjs": "^1.16.0",
+    "react-helmet": "5.2.1"
   }
 }
