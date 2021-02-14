@@ -14,9 +14,12 @@ meta_description: ''
 id: 'article'
 ---
 
-Đã bao giờ bạn cảm thấy mệt mỏi vì xung quanh mình có quá nhiều thứ phải bận tâm tới.\
-Đã bao giờ bạn cảm thấy hứng khởi khi mua một món đồ, nhưng sau đó không lâu lại có cảm giác hơi hụt hẫng vì đã mua món đồ đó.\
-Đã bao giờ bạn muốn tịnh tâm lại nhưng chỉ một vài phút sau lại bị sao nhãng đi vì các thông báo trên điện thoại cứ reo liên hồi.\
+Đã bao giờ bạn cảm thấy mệt mỏi vì xung quanh mình có quá nhiều thứ phải bận tâm tới.
+
+Đã bao giờ bạn cảm thấy hứng khởi khi mua một món đồ, nhưng sau đó không lâu lại có cảm giác hơi hụt hẫng vì đã mua món đồ đó.
+
+Đã bao giờ bạn muốn tịnh tâm lại nhưng chỉ một vài phút sau lại bị sao nhãng đi vì các thông báo trên điện thoại cứ reo liên hồi.
+
 Nếu như những thứ trên giống với tình cảnh của bạn hiện tại thì bạn không cô đơn đâu, mình cũng thế 🥲
 
 Trong bài viết này, mình sẽ chia sẻ về một lối sống mà mình nghĩ sẽ giúp khắc phục được những vấn đề trên: **LỐI SỐNG TỐI GIẢN - MINIMALISM LIVING**.
