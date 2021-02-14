@@ -37,7 +37,7 @@ const ArticleMetaGhost = ({ data, settings, canonical, id }) => {
                     content={
                         ghostPost.frontmatter.og_title ||
                         ghostPost.frontmatter.meta_title ||
-                        ghostPost.frontmatter.title
+                        ghostPost.frontmatter.title - config.siteTitleMeta
                     }
                 />
                 <meta property="og:description"
