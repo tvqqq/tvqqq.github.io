@@ -17,7 +17,10 @@ const WebsiteMeta = ({ data, canonical, name, description, image, type }) => {
     shareImage = shareImage ? url.resolve(config.siteUrl, shareImage) : null
 
     description = description || data.meta_description || data.description || config.siteDescriptionMeta || config.siteDescriptionMeta
-    const title = `${name} - ${description}`
+    let title = `${name} - ${description}`
+    if (type === 'tag') {
+        title = `#${name} • ${description} - ${config.siteTitleMeta}`
+    }
 
     return (
         <>
