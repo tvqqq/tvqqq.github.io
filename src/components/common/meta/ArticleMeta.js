@@ -34,11 +34,11 @@ const ArticleMetaGhost = ({ data, settings, canonical, id }) => {
                 <meta property="og:site_name" content={config.title} />
                 <meta property="og:type" content="article" />
                 <meta property="og:title"
-                    content={
-                        ghostPost.frontmatter.og_title ||
+                    content={`
+                        ${ghostPost.frontmatter.og_title ||
                         ghostPost.frontmatter.meta_title ||
-                        ghostPost.frontmatter.title - config.siteTitleMeta
-                    }
+                        ghostPost.frontmatter.title} - ${config.siteTitleMeta}
+                    `}
                 />
                 <meta property="og:description"
                     content={
