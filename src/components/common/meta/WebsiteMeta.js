@@ -30,7 +30,7 @@ const WebsiteMeta = ({ data, canonical, name, description, image, type }) => {
                     content={config.siteTitleMeta}
                 />
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content={title} />
+                <meta property="og:title" content={config.siteTitleMeta} />
                 <meta property="og:description" content={description} />
                 <meta property="og:url" content={canonical} />
                 <meta name="twitter:title" content={title} />
@@ -96,15 +96,6 @@ const WebsiteMeta = ({ data, canonical, name, description, image, type }) => {
                       }
                     
                 `}</script>
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-D8J42ZP344"></script>
-                <script>
-                    {`
-                        window.dataLayer = window.dataLayer || [];
-                        function gtag(){dataLayer.push(arguments);}
-                        gtag('js', new Date());
-                        gtag('config', 'G-D8J42ZP344');
-                    `}
-                </script>
             </Helmet>
             <ImageMeta image={shareImage} />
         </>

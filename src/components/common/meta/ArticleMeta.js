@@ -27,7 +27,7 @@ const ArticleMetaGhost = ({ data, settings, canonical, id }) => {
     return (
         <>
             <Helmet>
-                <title>{ghostPost.frontmatter.meta_title || ghostPost.frontmatter.title}</title>
+                <title>{ghostPost.frontmatter.meta_title || ghostPost.frontmatter.title} - {config.siteTitleMeta}</title>
                 <meta name="description" content={ghostPost.frontmatter.meta_description || ghostPost.excerpt} />
                 <link rel="canonical" href={canonical} />
 

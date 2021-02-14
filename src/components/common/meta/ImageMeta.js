@@ -15,6 +15,15 @@ const ImageMeta = ({ image }) => {
             <meta property="og:image" content={image} />
             <meta property="og:image:width" content={config.shareImageWidth} />
             <meta property="og:image:height" content={config.shareImageHeight} />
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-D8J42ZP344"></script>
+            <script>
+                {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-D8J42ZP344');
+                `}
+            </script>
         </Helmet >
     )
 }

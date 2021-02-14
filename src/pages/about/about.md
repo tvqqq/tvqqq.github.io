@@ -1,13 +1,18 @@
 ---
 title: 'About Me'
-date: 2019-06-10T00:00:00+5:30
+date: 2021-02-14T10:46:17+07:00	
 draft: false
-published_at: 2019-06-10T00:00:00+5:30
-updated_at: 2019-06-10T00:00:00+5:30
-created_at: 2019-06-10T00:00:00+5:30
 slug: 'about'
 ---
-I'm a software engineer, backed by an ideology to build highly performant and scalable products. 
-Quickly fathoming a problem and progressively finding its solution have been the building blocks of my professional career.
-Currently, playing with code at ixigo ("ik-si-go") on PWA applications for different customer facing verticals, 
-making it light weight and accessible.
+
+Héluuu, mình là Quyền, hiện tại mình là một developer ở Sài Gòn 👨‍💻. 
+Đây là cái blog cá nhân nho nhỏ của mình, nơi mà mình viết về những trải nghiệm trong cuộc sống, góc nhìn của bản thân, ngoài ra mình cũng sẽ có những bài viết về technical cho developers.
+
+Blog ra đời một cách ngẫu hứng thôi nhưng "vô tình" lại trùng hợp vào ngày Valentine ❤️ 14/02/2021 (cũng chính là Mồng 3 Tết Tân Sửu 🐃). Với slogan của blog là **"Making the life much simpler and happier"**, mình quyết định xây dựng blog theo phong cách minimalism.
+1. Sử dụng platform [Gatsby](https://www.gatsbyjs.com) và dùng template có sẵn [Gatsby Theme Ghost](https://github.com/akanshgulati/gatsby-theme-ghost) để build.
+2. Tận dụng Github Pages để vừa lưu trữ code vừa làm hosting cho blog.
+3. Nội dung blog viết bằng định dạng Markdown, không quá phức tạp nên mình có thể tập trung nhiều hơn vào chất lượng của bài viết ✍️.
+
+Hy vọng là mình sẽ chăm chỉ duy trì được cái blog này để mang đến cho cả mình và các bạn những góc nhìn cuộc sống thật thú vị 😊.
+
+Nếu bạn muốn liên hệ mình thì có thể gửi vào email <tvq9612@gmail.com> hoặc qua Facebook Messenger <https://m.me/tvqqq>.

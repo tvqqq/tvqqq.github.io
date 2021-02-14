@@ -19,6 +19,8 @@ what's here to work the way you'd like it to.
 /* Variables
 /* ---------------------------------------------------------- */
 /* latin-ext */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+
 @font-face {
     font-family: 'Source Serif Pro';
     font-style: normal;
@@ -598,7 +600,7 @@ h6 {
 .content-body {
     display: flex;
     flex-direction: column;
-    font-family: var(--font-serif);
+    font-family: 'Nunito', sans-serif;
 }
 .post-full-header {
     max-width: 1040px;
@@ -951,7 +953,7 @@ h6 {
 
 .site-mast-left-flex .site-nav {
     margin: 0;
-    margin-left: 30px;
+    margin-left: 8px;
 }
 
 .site-nav-left {

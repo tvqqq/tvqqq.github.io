@@ -1,5 +1,5 @@
 module.exports = {
-    siteUrl: `https://quyentat.github.io`, // Site domain. Do not include a trailing slash!
+    siteUrl: `https://tvqqq.github.io`, // Site domain. Do not include a trailing slash!
 
     postsPerPage: 12, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
