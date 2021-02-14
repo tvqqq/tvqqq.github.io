@@ -69,7 +69,7 @@ export default Index
 export const pageQuery = graphql`
     query MarkdownPostQuery($limit: Int!, $skip: Int!) {
         allMarkdownRemark(
-            sort: { order: DESC, fields: [frontmatter___published_at] }
+            sort: { order: DESC, fields: [frontmatter___date] }
             limit: $limit
             skip: $skip
             filter: {
@@ -92,11 +92,8 @@ export const pageQuery = graphql`
                         }
                     }
                   }
-                  featured
-                  published_at
                   weight
                   page
-                  created_at
                   slug
                   tag_id
                   name

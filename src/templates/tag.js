@@ -83,7 +83,7 @@ export const pageQuery = graphql`
     query MarkdownTagQuery($slug: String, $limit: Int!, $skip: Int!) {
         allMarkdownRemark(
             limit: $limit
-            sort: { fields: [frontmatter___published_at], order: DESC }
+            sort: { fields: [frontmatter___date], order: DESC }
             filter: {
                 frontmatter: {
                     tags: { elemMatch: { frontmatter: { slug: { eq: $slug } } } }

@@ -48,8 +48,8 @@ const ArticleMetaGhost = ({ data, settings, canonical, id }) => {
                     }
                 />
                 <meta property="og:url" content={canonical} />
-                <meta property="article:published_time" content={ghostPost.frontmatter.published_at} />
-                <meta property="article:modified_time" content={ghostPost.frontmatter.updated_at} />
+                <meta property="article:published_time" content={ghostPost.frontmatter.date} />
+                <meta property="article:modified_time" content={ghostPost.frontmatter.date} />
                 {publicTags.map((keyword, i) => (<meta property="article:tag" content={keyword} key={i} />))}
                 {author.facebookUrl && <meta property="article:author" content={author.facebookUrl} />}
 
@@ -88,8 +88,8 @@ const ArticleMetaGhost = ({ data, settings, canonical, id }) => {
                         ${publicTags.length ? `"keywords": "${_.join(publicTags, `, `)}",` : ``}
                         "headline": "${ghostPost.frontmatter.meta_title || ghostPost.frontmatter.title}",
                         "url": "${canonical}",
-                        "datePublished": "${ghostPost.frontmatter.published_at}",
-                        "dateModified": "${ghostPost.frontmatter.updated_at}",
+                        "datePublished": "${ghostPost.frontmatter.date}",
+                        "dateModified": "${ghostPost.frontmatter.date}",
                         ${shareImage ? `"image": {
                                 "@type": "ImageObject",
                                 "url": "${shareImage}",

@@ -11,7 +11,7 @@ const generateItem = function generateItem(site, post) {
         description: post.excerpt,
         guid: post.frontmatter.id,
         url: itemUrl,
-        date: post.frontmatter.published_at,
+        date: post.frontmatter.date,
         author: post.frontmatter.author && post.frontmatter.author.frontmatter ? post.frontmatter.author.frontmatter.name : null,
         custom_elements: [],
     }
@@ -76,9 +76,6 @@ const generateRSSFeed = function generateRSSFeed(site) {
                 frontmatter {
                   title
                   slug
-                  featured
-                  created_at
-                  published_at
                   feature_image {
                     id
                     childImageSharp {
@@ -87,7 +84,6 @@ const generateRSSFeed = function generateRSSFeed(site) {
                       }
                     }
                   }
-                  updated_at
                   meta_title
                   meta_description
                   author {

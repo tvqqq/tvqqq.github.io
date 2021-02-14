@@ -144,7 +144,6 @@ export const postQuery = graphql`
             }
         }
         meta_description
-        published_at(formatString: "MMMM DD, YYYY")
         comment,
         id
       }
