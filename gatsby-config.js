@@ -134,7 +134,6 @@ if (process.env.NODE_ENV === `production`) {
                       edges: nodes {
                         node: frontmatter {
                           slug
-                          updated_at
                           id:slug
                         }
                       }
@@ -144,7 +143,6 @@ if (process.env.NODE_ENV === `production`) {
                         id
                         node: frontmatter {
                           slug
-                          updated_at
                           id:slug
                         }
                       }
@@ -154,7 +152,6 @@ if (process.env.NODE_ENV === `production`) {
                         id
                         node: frontmatter {
                           slug
-                          updated_at
                           id:slug
                         }
                       }
@@ -164,7 +161,6 @@ if (process.env.NODE_ENV === `production`) {
                         id
                         node: frontmatter {
                           slug
-                          updated_at
                           id:slug
                         }
                       }

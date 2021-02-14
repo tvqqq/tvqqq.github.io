@@ -69,7 +69,7 @@ const generateRSSFeed = function generateRSSFeed(site) {
         },
         query: `
         {
-          allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/posts/"}}, sort: {order: DESC, fields: frontmatter___created_at}) {
+          allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/posts/"}}, sort: {order: DESC, fields: frontmatter___date}) {
             edges {
               node {
                 id
