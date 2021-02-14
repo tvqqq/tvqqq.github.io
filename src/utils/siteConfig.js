@@ -5,8 +5,6 @@ module.exports = {
 
     siteTitleMeta: `Quyen Tat`, // This allows an alternative site title for meta data for pages.
     siteDescriptionMeta: `Making the life much simpler and happier 🌟`, // This allows an alternative site description for meta data for pages.
-    siteTwitterHandle: "",
-    siteFacebookHandle: "",
     language: `en`,
 
     shareImageWidth: 1000, // Change to the width of your default share image
@@ -30,8 +28,6 @@ module.exports = {
             url: `/about`,
         },
     ],
-
-    googleAnalyticsId: "262178815", // ADD_COMPLETE_TRACKING_ID => UA-151385213-1
 
     disqusShortname: "" // ADD_SHORT_NAME => https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 }
