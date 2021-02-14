@@ -42,7 +42,7 @@ const PostCard = ({ post }) => {
                 <footer className="post-card-footer">
                     <div className="post-card-footer-left">
                         <time
-                            className="post-full-meta-date"
+                            className="post-full-meta-date postcard"
                             dateTime="{post.frontmatter.date}"
                         >
                             {post.frontmatter.date}

@@ -20,8 +20,8 @@ import '../../styles/app.css'
 */
 const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
     const site = config
-    const twitterUrl = config.siteTwitterHandle ? `https://twitter.com/${config.siteTwitterHandle.replace(/^@/, ``)}` : null
-    const facebookUrl = config.siteFacebookHandle ? `https://www.facebook.com/${config.siteFacebookHandle.replace(/^\//, ``)}` : null
+    // const twitterUrl = config.siteTwitterHandle ? `https://twitter.com/${config.siteTwitterHandle.replace(/^@/, ``)}` : null
+    // const facebookUrl = config.siteFacebookHandle ? `https://www.facebook.com/${config.siteFacebookHandle.replace(/^\//, ``)}` : null
 
     return (
         <>
@@ -94,10 +94,12 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     <footer className="site-foot">
                         <div className="site-foot-nav container">
                             <div className="site-foot-nav-left">
-                                <Link to="/">{config.siteTitleMeta}</Link>
+                                © <Link to="/">{config.siteTitleMeta}</Link>
                             </div>
                             <div className="site-foot-nav-right">
-                                <Navigation data={config.navigation} navClass="site-foot-nav-item" />
+                                {/* <a href="https://youtube.com" className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/youtube.svg" alt="Youtube" /></a> */}
+                                <a href="https://github.com/tvqqq" className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/github.svg" alt="Github" /></a>
+                                <a href="https://www.linkedin.com/in/tvq" className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/linkedin.svg" alt="LinkedIn" /></a>
                             </div>
                         </div>
                     </footer>

@@ -16,7 +16,7 @@ module.exports = {
     siteIcon: `/images/logo.png`, // Logo in /static dir used for SEO, RSS, and App manifest
     backgroundColor: `#e9e9e9`, // Used for Offline Manifest
     themeColor: `#15171A`, // Used for Offline Manifest
-    cover_image: `/images/cover.jpg`,
+    cover_image: `/images/default_cover.png`,
 
     logo: `/images/logo.png`,
 
@@ -26,12 +26,12 @@ module.exports = {
             url: `/`,
         },
         {
-            label: `About me`,
+            label: `About`,
             url: `/about`,
         },
     ],
 
-    googleAnalyticsId: "UA-151385213-1", // ADD_COMPLETE_TRACKING_ID => UA-151385213-1
+    googleAnalyticsId: "262178815", // ADD_COMPLETE_TRACKING_ID => UA-151385213-1
 
     disqusShortname: "" // ADD_SHORT_NAME => https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 }

@@ -379,11 +379,6 @@ body {
     -moz-font-feature-settings: "liga" on;
 }
 
-::selection {
-    text-shadow: none;
-    background: #cbeafb;
-}
-
 hr {
     position: relative;
     display: block;
@@ -624,6 +619,10 @@ h6 {
 }
 .post-full-meta-date {
     color: #3eb0ef;
+}
+.post-full-meta-date.postcard {
+    color: #464646;
+    font-size: 0.9em;
 }
 .site-mast-left-flex {
     display: flex;
