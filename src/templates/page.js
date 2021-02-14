@@ -19,7 +19,7 @@ const Page = ({ data, location }) => {
             <MetaData
                 data={data}
                 location={location}
-                type="website"
+                type="page"
             />
             <Layout>
                 <div className="container">
@@ -54,8 +54,36 @@ export const postQuery = graphql`
         markdownRemark(frontmatter: { slug: { eq: $slug } }) {
             html
             frontmatter {
+                date(formatString: "MMMM DD, YYYY")
+                slug
                 title
+                feature_image {
+                    childImageSharp {
+                      fluid(maxWidth: 1000, maxHeight: 500) {
+                        ...GatsbyImageSharpFluid
+                      }
+                    }
+                  }
+                author {
+                    frontmatter {
+                        name
+                        profile_image
+                        twitter
+                        facebook
+                        website
+                    }
+                }
+                tags {
+                    frontmatter {
+                        name
+                        slug
+                    }
+                }
+                meta_description
+                comment,
+                id
             }
+            excerpt
         }
     }
 `

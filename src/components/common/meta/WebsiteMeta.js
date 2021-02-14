@@ -30,7 +30,7 @@ const WebsiteMeta = ({ data, canonical, name, description, image, type }) => {
                     content={config.siteTitleMeta}
                 />
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content={config.siteTitleMeta} />
+                <meta property="og:title" content={title} />
                 <meta property="og:description" content={description} />
                 <meta property="og:url" content={canonical} />
                 <meta name="twitter:title" content={title} />

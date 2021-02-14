@@ -14,7 +14,7 @@ import { MetaData } from '../components/common/meta'
 *
 */
 const Index = ({ data, location, pageContext }) => {
-    console.log(`Index`, data)
+    // console.log(`Index`, data)
     const posts = data.allMarkdownRemark.edges
 
     return (
@@ -92,7 +92,6 @@ export const pageQuery = graphql`
                         }
                     }
                   }
-                  weight
                   page
                   slug
                   tag_id

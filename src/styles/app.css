@@ -401,6 +401,16 @@ video {
     vertical-align: middle;
 }
 
+article audio,
+article canvas,
+article iframe,
+article img,
+article svg,
+article video {
+    display: block;
+    margin: 0 auto;
+}
+
 fieldset {
     margin: 0;
     padding: 0;
@@ -870,7 +880,8 @@ h6 {
 }
 
 .site-head.home {
-    background: url('/images/cover.jpg') no-repeat center;
+    /* background: url('/images/cover.jpg') no-repeat center; */
+    background: url('https://storage.googleapis.com/tvqqq-github/cover.jpg') no-repeat center;
     background-size: cover;
     background-attachment: scroll;
 }

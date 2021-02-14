@@ -114,7 +114,7 @@ const ArticleMetaGhost = ({ data, settings, canonical, id }) => {
                     }
                 `}</script>
                 <script type="application/javascript">
-                    {`console.log("Called"); window.pageId="${articleId}"`}
+                    {/* {`console.log("Called"); window.pageId="${articleId}"`} */}
                 </script>
             </Helmet>
             <ImageMeta image={shareImage} />
@@ -127,9 +127,6 @@ ArticleMetaGhost.propTypes = {
         html: PropTypes.string.isRequired,
         frontmatter: PropTypes.object.isRequired,
         excerpt: PropTypes.string.isRequired,
-    }).isRequired,
-    settings: PropTypes.shape({
-        allGhostSettings: PropTypes.object.isRequired,
     }).isRequired,
     canonical: PropTypes.string.isRequired,
 }

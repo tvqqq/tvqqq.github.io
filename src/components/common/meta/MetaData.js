@@ -58,10 +58,10 @@ const MetaData = ({
         )
     } else if (type === `page`) {
         return (
-            <WebsiteMeta
-                data={ghostPage}
+            <ArticleMeta
+                data={data.markdownRemark}
                 canonical={canonical}
-                type="website"
+                id={id}
             />
         )
     } else {
