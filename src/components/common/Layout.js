@@ -94,7 +94,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     <footer className="site-foot">
                         <div className="site-foot-nav container">
                             <div className="site-foot-nav-left">
-                                © <Link to="/">{config.siteTitleMeta}</Link>
+                                © <Link to="/">{config.siteTitleMeta}</Link> - <a href="http://bit.ly/tvq-cv" target="_blank" rel="noopener noreferrer">CV ↗</a>
                             </div>
                             <div className="site-foot-nav-right">
                                 {/* <a href="https://youtube.com" className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/youtube.svg" alt="Youtube" /></a> */}
