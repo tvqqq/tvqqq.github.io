@@ -1,6 +1,6 @@
 ---
 title: 'About Me'
-date: 2021-02-14T10:46:17+07:00	
+date: 2021-02-14T10:46:17
 draft: false
 feature_image:
 page: true

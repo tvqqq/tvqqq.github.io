@@ -1,6 +1,6 @@
 ---
 title: 'Lối sống tối giản'
-date: 2021-02-14T14:10:00+07:00	
+date: 2021-02-14T14:10:00
 draft: false
 feature_image: feature.jpg
 page: false
