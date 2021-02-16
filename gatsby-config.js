@@ -9,7 +9,7 @@ const generateRSSFeed = require(`./src/utils/rss/generate-feed`)
  * Further info 👉🏼 https://www.gatsbyjs.org/docs/gatsby-config/
  *
  */
-const gatsbyConfig =  {
+const gatsbyConfig = {
     siteMetadata: {
         siteUrl: config.siteUrl,
         title: config.siteTitleMeta,
@@ -89,28 +89,22 @@ const gatsbyConfig =  {
 }
 if (process.env.NODE_ENV === `production`) {
     const plugins = [{
-        resolve: `gatsby-plugin-google-analytics`,
+        resolve: `gatsby-plugin-ghost-manifest`,
         options: {
-            trackingId: config.googleAnalyticsId,
-        }
-    },
-        {
-            resolve: `gatsby-plugin-ghost-manifest`,
-            options: {
-                short_name: config.shortTitle,
-                start_url: `/`,
-                background_color: config.backgroundColor,
-                theme_color: config.themeColor,
-                display: `minimal-ui`,
-                icon: `static/${config.siteIcon}`,
-                name: config.siteTitleMeta,
-                description: config.siteDescriptionMeta,
-            },
+            short_name: config.shortTitle,
+            start_url: `/`,
+            background_color: config.backgroundColor,
+            theme_color: config.themeColor,
+            display: `minimal-ui`,
+            icon: `static/${config.siteIcon}`,
+            name: config.siteTitleMeta,
+            description: config.siteDescriptionMeta,
         },
-        {
-            resolve: `gatsby-plugin-feed`,
-            options: {
-                query: `
+    },
+    {
+        resolve: `gatsby-plugin-feed`,
+        options: {
+            query: `
                 {
                     site {
                       siteMetadata {
@@ -122,13 +116,13 @@ if (process.env.NODE_ENV === `production`) {
                     }
                   }
               `,
-                feeds: [generateRSSFeed(config)],
-            },
+            feeds: [generateRSSFeed(config)],
         },
-        {
-            resolve: `gatsby-plugin-advanced-sitemap`,
-            options: {
-                query: `
+    },
+    {
+        resolve: `gatsby-plugin-advanced-sitemap`,
+        options: {
+            query: `
                 {
                     allPosts: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/posts/"}}) {
                       edges: nodes {
@@ -167,29 +161,29 @@ if (process.env.NODE_ENV === `production`) {
                     }
                   }
                   `,
-                mapping: {
-                    allPosts: {
-                        sitemap: `posts`,
-                    },
-                    allAuthors: {
-                        sitemap: `authors`,
-                    },
-                    allTags: {
-                        sitemap: `tags`,
-                    },
-                    allPages: {
-                        sitemap: `pages`
-                    }
+            mapping: {
+                allPosts: {
+                    sitemap: `posts`,
                 },
-                exclude: [
-                    `/dev-404-page`,
-                    `/404`,
-                    `/404.html`,
-                    `/offline-plugin-app-shell-fallback`,
-                ],
-                createLinkInHead: true,
+                allAuthors: {
+                    sitemap: `authors`,
+                },
+                allTags: {
+                    sitemap: `tags`,
+                },
+                allPages: {
+                    sitemap: `pages`
+                }
             },
-        },]
+            exclude: [
+                `/dev-404-page`,
+                `/404`,
+                `/404.html`,
+                `/offline-plugin-app-shell-fallback`,
+            ],
+            createLinkInHead: true,
+        },
+    },]
 
     // adding plugins
     gatsbyConfig.plugins = gatsbyConfig.plugins.concat(plugins)
