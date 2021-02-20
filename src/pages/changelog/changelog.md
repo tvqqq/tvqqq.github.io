@@ -2,7 +2,7 @@
 title: 'Changelog'
 date: 2021-02-20T09:00:00
 draft: false
-feature_image: ''
+feature_image:
 page: true
 tags:
 slug: 'changelog'
