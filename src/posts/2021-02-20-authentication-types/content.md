@@ -1,7 +1,7 @@
 ---
 title: Authentication Types
-date: 2021-02-17T08:00:00
-draft: true
+date: 2021-02-20T21:00:00
+draft: false
 feature_image: feature.jpg
 page: false
 tags:
