@@ -18,8 +18,9 @@ const WebsiteMeta = ({ data, canonical, name, description, image, type }) => {
 
     description = description || data.meta_description || data.description || config.siteDescriptionMeta || config.siteDescriptionMeta
     let title = `${name} - ${description}`
+    let ogTitle = name
     if (type === 'tag') {
-        title = `#${name} • ${description} - ${config.siteTitleMeta}`
+        ogTitle = title = `#${name} • ${description} - ${config.siteTitleMeta}`
     }
 
     return (
@@ -33,10 +34,10 @@ const WebsiteMeta = ({ data, canonical, name, description, image, type }) => {
                     content={config.siteTitleMeta}
                 />
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content={title} />
+                <meta property="og:title" content={ogTitle} />
                 <meta property="og:description" content={description} />
                 <meta property="og:url" content={canonical} />
-                <meta name="twitter:title" content={title} />
+                <meta name="twitter:title" content={ogTitle} />
                 <meta name="twitter:description" content={description} />
                 <meta name="twitter:url" content={canonical} />
 

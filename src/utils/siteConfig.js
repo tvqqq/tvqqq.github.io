@@ -14,7 +14,7 @@ module.exports = {
     siteIcon: `/images/logo.png`, // Logo in /static dir used for SEO, RSS, and App manifest
     backgroundColor: `#e9e9e9`, // Used for Offline Manifest
     themeColor: `#15171A`, // Used for Offline Manifest
-    cover_image: `/images/default_cover.png`,
+    cover_image: `/images/og_cover.png`,
 
     logo: `/images/logo.png`,
 

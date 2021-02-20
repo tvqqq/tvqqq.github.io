@@ -2,7 +2,7 @@
 title: 'About Me'
 date: 2021-02-14T10:46:17
 draft: false
-feature_image:
+feature_image: 
 page: true
 tags:
 slug: 'about'

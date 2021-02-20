@@ -3,7 +3,7 @@ name: Gatsby Deploy
 on:
   push:
     branches:
-      - develop
+      - master
 
 jobs:
   build:
@@ -15,4 +15,4 @@ jobs:
         with:
           node-version: 12.x
       - run: npm install
-      - run: npm run deploy
+      - run: npm run build && gh-pages -d public -b gh-pages
