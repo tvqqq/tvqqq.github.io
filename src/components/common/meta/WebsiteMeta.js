@@ -108,7 +108,7 @@ const WebsiteMeta = ({ data, canonical, name, description, image, type }) => {
 WebsiteMeta.propTypes = {
     data: PropTypes.shape({
         title: PropTypes.string,
-        feature_image: PropTypes.string,
+        // feature_image: PropTypes.string,
         description: PropTypes.string,
         bio: PropTypes.string,
         profile_image: PropTypes.string,
