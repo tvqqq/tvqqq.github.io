@@ -9,7 +9,7 @@ slug: 'changelog'
 author: 'tvq'
 comment: false
 meta_description: 'Tất tần tật về hành trình của blog.'
-id: 'page-changelog'
+id: 'page'
 ---
 
 <div id="changelog">
