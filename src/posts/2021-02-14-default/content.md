@@ -2,7 +2,7 @@
 title: 'Default'
 date: 2021-02-14T00:00:00
 draft: true
-feature_image: feature.jpg
+feature_image: featurex.jpg
 page: false
 tags:
     - life
