@@ -9,6 +9,7 @@ import config from '../../utils/siteConfig'
 
 // Styles
 import '../../styles/app.css'
+import '../../styles/potlab-icon.css'
 
 /**
 * Main layout component
@@ -94,10 +95,14 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     <footer className="site-foot">
                         <div className="site-foot-nav container">
                             <div className="site-foot-nav-left">
-                                © <Link to="/">{config.siteTitleMeta}</Link> - <a href="http://bit.ly/tvq-cv" target="_blank" rel="noopener noreferrer">CV ↗</a>
+                                © <Link to="/">{config.siteTitleMeta}</Link>
+                                {/* - Backend Developer & Cloud Enthusiast - <a href="http://bit.ly/tvq-cv" target="_blank" rel="noopener noreferrer">CV ↗</a> */}
                             </div>
                             <div className="site-foot-nav-right">
                                 {/* <a href="https://youtube.com" className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/youtube.svg" alt="Youtube" /></a> */}
+                                <a href="https://facebook.com/tvqqq" className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/facebook.svg" alt="Facebook" /></a>
+                                <a href="https://www.instagram.com/tvq.december" className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/instagram.svg" alt="Instagram" /></a>
+                                <a href="https://twitter.com/tvq9612" className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/twitter.svg" alt="Twitter" /></a>
                                 <a href="https://github.com/tvqqq" className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/github.svg" alt="Github" /></a>
                                 <a href="https://www.linkedin.com/in/tvq" className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/linkedin.svg" alt="LinkedIn" /></a>
                             </div>

@@ -899,7 +899,7 @@ h6 {
 }
 
 .site-nav-icon {
-    height: 15px;
+    height: 18px;
     margin: -5px 0 0;
 }
 
@@ -1235,6 +1235,11 @@ h6 {
     justify-content: space-between;
 }
 
+.site-foot-nav-left {
+    flex: 1;
+    font-size: 110%;
+}
+
 .site-foot-nav a {
     color: rgba(255,255,255,0.7);
 }
@@ -1246,7 +1251,7 @@ h6 {
 
 .site-foot-nav-right a {
     display: inline-block;
-    padding: 2px 5px;
+    padding: 2px 6px;
 }
 
 .site-foot-nav-right a:last-child {
@@ -1392,4 +1397,77 @@ code.language-text {
 .show-comment-button:hover {
     background-color: var(--color-base);
     color: white;
+}
+
+/* .about-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 10px;
+}
+
+.about-grid .about-card {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+} */
+
+#changelog {
+    margin-top: 20px;
+}
+
+#changelog .event {
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 10rem
+}
+
+#changelog .event:after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 100px;
+    background: rgb(205 205 205);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgb(205 205 205) 100%);
+    transform: translate(-50%, 0%);
+
+}
+
+#changelog .event.last:after {
+    height: 0;
+}
+
+#changelog .icon {
+    background-color: #1687a7;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    border: 3px solid #f6f5f5;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+
+#changelog .title {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px 0 5px;
+    line-height: 130%;
+    text-transform: uppercase;
+}
+
+#changelog .date {
+    font-size: 80%;
+    color: #5a5a5a;
+    margin-top: -5px;
+}
+
+#changelog .description p {
+    width: 75%;
+    text-align: justify;
+    display: block;
+    margin: 0 auto;
+    font-size: 90%;
+    line-height: 150%;
 }
