@@ -54,7 +54,7 @@ export const postQuery = graphql`
         markdownRemark(frontmatter: { slug: { eq: $slug } }) {
             html
             frontmatter {
-                date(formatString: "MMMM DD, YYYY")
+                date(formatString: "DD-MM-YYYY")
                 slug
                 title
                 feature_image {
