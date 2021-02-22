@@ -20,4 +20,4 @@ Héluuu, mình là **Quyền**, hiện tại là một developer đang làm vi�
 
 Hy vọng là mình sẽ chăm chỉ duy trì được blog để mang đến cho cả mình và các bạn những góc nhìn cuộc sống thật thú vị 😊.
 
-Nếu bạn không ngại thì mình luôn muốn connect với bạn thông qua các kênh ở dưới góc phải của blog nè ⤵.
+Nếu bạn không ngại thì mình luôn muốn connect với bạn qua các kênh ở dưới góc phải của blog nè ⤵.
