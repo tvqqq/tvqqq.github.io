@@ -3,16 +3,16 @@ name: Gatsby Deploy
 on:
   push:
     branches:
-      - develop
+      - master
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v1
       - name: Setup node 12
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v1
         with:
           node-version: 12.x
-      - run: npm install
-      - run: npm run build && gh-pages -d public -b gh-pages
+      - run: yarn install --pure-lockfile
+      - run: yarn deploy
