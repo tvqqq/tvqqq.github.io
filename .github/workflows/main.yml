@@ -15,5 +15,6 @@ jobs:
           node-version: 12.x
       - run: git config --global user.email "tvq9612@gmail.com"
       - run: git config --global user.name "Quyen"
+      - run: git remote set-url origin git@github.com:tvqqq/tvqqq.github.io.git
       - run: yarn install --pure-lockfile
       - run: yarn deploy
