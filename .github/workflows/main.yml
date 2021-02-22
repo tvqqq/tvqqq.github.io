@@ -16,5 +16,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 12.x
+      - run: git config --global user.email "tvq9612@gmail.com"
+      - run: git config --global user.name "Quyen"
       - run: yarn install --pure-lockfile
       - run: yarn deploy
