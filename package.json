@@ -49,6 +49,7 @@
   "dependencies": {
     "@tryghost/helpers": "1.1.5",
     "@tryghost/helpers-gatsby": "1.0.8",
+    "axios": "^0.21.1",
     "cheerio": "1.0.0-rc.3",
     "disqus-react": "^1.0.5",
     "gatsby-awesome-pagination": "0.3.4",

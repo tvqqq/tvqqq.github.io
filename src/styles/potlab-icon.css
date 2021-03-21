@@ -81,3 +81,25 @@ http://potlabicons.com/v1/
             transform: rotate(0deg);
     }
 }
+
+#icon-audio-disc {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+}
+
+#icon-audio-disc.playing{
+    -webkit-animation: spinning 3s linear alternate infinite;
+    animation: spinning 3s linear alternate infinite;
+}
+
+@keyframes spinning {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

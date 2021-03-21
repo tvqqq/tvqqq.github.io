@@ -1471,3 +1471,13 @@ code.language-text {
     font-size: 90%;
     line-height: 180%;
 }
+
+.site-spotify-playing {
+    margin-top: 5px;
+}
+
+.site-spotify-playing span {
+    letter-spacing: 2px;
+    color: #fefefe9d;
+    font-size: 11px;
+}

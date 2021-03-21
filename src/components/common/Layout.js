@@ -6,6 +6,7 @@ import Img from 'gatsby-image'
 
 import { Navigation } from '.'
 import config from '../../utils/siteConfig'
+import Spotify from './Spotify'
 
 // Styles
 import '../../styles/app.css'
@@ -68,6 +69,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                     </Link>
                                     <h1 className="site-banner-title">{config.siteTitleMeta}</h1>
                                     <p className="site-banner-desc">{config.siteDescriptionMeta}</p>
+                                    <Spotify></Spotify>
                                 </div> :
                                 null}
                             {isHome ?
