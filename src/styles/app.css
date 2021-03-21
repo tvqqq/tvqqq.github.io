@@ -1476,8 +1476,10 @@ code.language-text {
     margin-top: 5px;
 }
 
-.site-spotify-playing span {
+.site-spotify-playing .song-information {
     letter-spacing: 2px;
-    color: #fefefe9d;
+    color: #fefefe6c;
     font-size: 11px;
+    margin-left: 6px;
+    display: inline;
 }
