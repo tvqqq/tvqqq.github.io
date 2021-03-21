@@ -1483,3 +1483,11 @@ code.language-text {
     margin-left: 6px;
     display: inline;
 }
+
+.site-spotify-playing .song-information a {
+    color: #fefefec2;
+}
+
+.site-spotify-playing .song-information a:hover {
+    text-decoration: none;
+}

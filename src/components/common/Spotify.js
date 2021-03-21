@@ -18,7 +18,9 @@ class Spotify extends Component {
             .then(result => {
                 this.setState({
                     playing: result.data.playing,
-                    song: result.data.song
+                    song: result.data.song,
+                    artist: result.data.artist,
+                    url: result.data.url,
                 })
             })
             .catch(err => {
