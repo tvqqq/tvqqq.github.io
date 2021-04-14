@@ -511,14 +511,16 @@ a:hover {
     text-decoration: underline;
 }
 .content-body a {
-    color: rgba(0,0,0,.84);
+    color: #283d6a !important;
+    border-bottom: 1px dashed #283d6a59;
+    transition: .2s ease-in-out;
     text-decoration: none;
-    border-bottom: 1px solid rgba(0,0,0,.84);
     padding-bottom: 0px;
 }
 .content-body a:hover {
     text-decoration: none;
-    border-bottom-color: #26a8ed;
+    background-color: #7391d721;
+    border-bottom-color: #5c74ac !important;
 }
 
 h1,
