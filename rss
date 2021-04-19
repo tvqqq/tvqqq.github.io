@@ -1,4 +1,110 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[Tất Vĩ Quyền]]></title><description><![CDATA[Kĩ sư mặt sau thích sống trên mây ☁️]]></description><link>https://tatviquyen.name.vn/</link><image><url>https://tatviquyen.name.vn/undefined</url><title>Tất Vĩ Quyền</title><link>https://tatviquyen.name.vn/</link></image><generator>Ghost 2.9</generator><lastBuildDate>Mon, 19 Apr 2021 02:52:06 GMT</lastBuildDate><atom:link href="https://tatviquyen.name.vn/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Authentication Types]]></title><description><![CDATA[What is Authentication? Authentication is the process of identifying users that request access to a system, network, or device. Access…]]></description><link>authentication-types</link><guid isPermaLink="true">authentication-types</guid><dc:creator><![CDATA[Tat Vi Quyen]]></dc:creator><media:content url="https://tatviquyen.name.vn/static/c41579e41a294ac21b3066c5f5352fd1/14dee/feature.jpg" medium="image"/><content:encoded><![CDATA[<h2>What is Authentication?</h2>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[Tất Vĩ Quyền]]></title><description><![CDATA[Kĩ sư mặt sau thích sống trên mây ☁️]]></description><link>https://tatviquyen.name.vn/</link><image><url>https://tatviquyen.name.vn/undefined</url><title>Tất Vĩ Quyền</title><link>https://tatviquyen.name.vn/</link></image><generator>Ghost 2.9</generator><lastBuildDate>Mon, 19 Apr 2021 05:12:56 GMT</lastBuildDate><atom:link href="https://tatviquyen.name.vn/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[RunWaves #1: Hành trình mới]]></title><description><![CDATA[Cách RunWaves ra đời Xuất phát từ ý tưởng xây dựng một trang web dành cho những người bạn yêu thích chạy bộ có thể lưu lại thành tích chạy…]]></description><link>runwaves-1-hanh-trinh-moi</link><guid isPermaLink="true">runwaves-1-hanh-trinh-moi</guid><dc:creator><![CDATA[Tat Vi Quyen]]></dc:creator><media:content url="https://tatviquyen.name.vn/static/7f0a595bb3ceccddf660bc3986f0b3c3/14dee/feature.jpg" medium="image"/><content:encoded><![CDATA[<h2>Cách RunWaves ra đời</h2>
+<ul>
+<li>Xuất phát từ ý tưởng xây dựng một trang web dành cho những người bạn yêu thích chạy bộ có thể lưu lại thành tích chạy của mình và cạnh tranh với nhau trên bảng xếp hạng theo tuần và tích lũy.</li>
+<li>Tầm nhìn xa hơn xíu sẽ là một mạng xã hội dành cho người yêu chạy bộ có thể kết nối với nhau, chia sẻ về những kinh nghiệm, trải nghiệm chạy bộ cùng với hệ thống điểm &#x26; quà tặng và nhiều tính năng hay ho nữa sẽ bật mí sau.</li>
+<li>Những thành viên đầu tiên của dự án gồm có: <a href="https://tatviquyen.name.vn" target="_blank">"Tính" Vĩ Quyền</a>, <a href="https://nguyenthanhan.me" target="_blank">"Hứa" Thành An</a>, <a href="https://www.facebook.com/profile.php?id=100007311435513" target="_blank">"Định" Đức Huy</a>. Với những cái tên vàng trong làng "tính toán" đã gặp nhau trong một ngày mưa ở Sài Gòn và trao cho nhau những ánh mắt đầy tâm huyết cùng lời thề "code tới cùng" dự án này.</li>
+<li>Hy vọng dự án không bể sớm. 🙏
+<span class="gatsby-resp-image-wrapper" style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 740px; ">
+      <a class="gatsby-resp-image-link" href="/static/f846e750ac4480fcc104983847fa9f6d/330c1/team.jpg" style="display: block" target="_blank" rel="noopener">
+    <span class="gatsby-resp-image-background-image" style="padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBAgME/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAABnuUaB3Eox//EABwQAAEDBQAAAAAAAAAAAAAAAAIAAQMSISMxMv/aAAgBAQABBQJyynJZ6DURkcp8vv8A/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAh/9oACAEDAQE/ATV//8QAFhEAAwAAAAAAAAAAAAAAAAAAARAh/9oACAECAQE/ARF//8QAGxAAAgIDAQAAAAAAAAAAAAAAAQIAEQMQInH/2gAIAQEABj8C5awILYCW+RQfYqsbEbX/xAAbEAACAwEBAQAAAAAAAAAAAAAAARExQSFRsf/aAAgBAQABPyGOTs3paDPZwd+AWK0zxod34/pyP//aAAwDAQACAAMAAAAQYA//xAAWEQADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8QCl//xAAWEQEBAQAAAAAAAAAAAAAAAAAAEUH/2gAIAQIBAT8QyR//xAAdEAEBAAIBBQAAAAAAAAAAAAABEQAhMUFRYXGR/9oACAEBAAE/EHdgc3W2j3c3doYcw6/ecVn2hSnfRlvWtJGZRVQhvliUBZn/2Q=='); background-size: cover; display: block;"/>
+  <picture>
+          <source srcset="/static/f846e750ac4480fcc104983847fa9f6d/446c7/team.webp 185w,
+/static/f846e750ac4480fcc104983847fa9f6d/8522b/team.webp 370w,
+/static/f846e750ac4480fcc104983847fa9f6d/391b8/team.webp 740w,
+/static/f846e750ac4480fcc104983847fa9f6d/1982a/team.webp 1110w,
+/static/f846e750ac4480fcc104983847fa9f6d/264d3/team.webp 1480w,
+/static/f846e750ac4480fcc104983847fa9f6d/ffecf/team.webp 1920w" sizes="(max-width: 740px) 100vw, 740px" type="image/webp"/>
+          <source srcset="/static/f846e750ac4480fcc104983847fa9f6d/bbb10/team.jpg 185w,
+/static/f846e750ac4480fcc104983847fa9f6d/a41d5/team.jpg 370w,
+/static/f846e750ac4480fcc104983847fa9f6d/d7cf7/team.jpg 740w,
+/static/f846e750ac4480fcc104983847fa9f6d/56ca0/team.jpg 1110w,
+/static/f846e750ac4480fcc104983847fa9f6d/cf480/team.jpg 1480w,
+/static/f846e750ac4480fcc104983847fa9f6d/330c1/team.jpg 1920w" sizes="(max-width: 740px) 100vw, 740px" type="image/jpeg"/>
+          <img class="gatsby-resp-image-image" src="/static/f846e750ac4480fcc104983847fa9f6d/d7cf7/team.jpg" alt="team" title="team" loading="lazy" style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"/>
+        </picture>
+  </a>
+    </span></li>
+</ul>
+<h2>Các stack mà team sử dụng</h2>
+<h3>Platform: Webapp</h3>
+<ul>
+<li>Vì cả ba thành viên đều là dân lập trình web nên để có thể bắt đầu thuận lợi tụi mình chọn những stack bên web cho việc phát triển sản phẩm.</li>
+</ul>
+<h3>FrontEnd: ReactJs</h3>
+<ul>
+<li>
+<img src="https://tatviquyen.name.vn/static/7f0a595bb3ceccddf660bc3986f0b3c3/14dee/feature.jpg"/><p>Sau khi xem xét stack cho FrontEnd giữa Vue và React thì team quyết định chọn React với hai lý do:</p>
+<ol>
+<li>Cả ba có cơ hội làm việc với một stack hoàn toàn mới.</li>
+<li>React được tuyển dụng nhiều hơn Vue. 🤣</li>
+</ol>
+</li>
+</ul>
+<h3>BackEnd: Laravel</h3>
+<ul>
+<li>Với Laravel thì team đã có kinh nghiệm làm việc qua nhưng mình nhận thấy Laravel là một framework còn rất nhiều thứ hay ho mà tụi mình chưa biết và tận dụng hết nên với dự án này mình quyết định tin dùng Laravel để viết API.</li>
+<li>Bản thân mình rất thích Laravel vì được cập nhật liên tục cũng như docs, code style đúng như slogan của Taylor Otwell đã nói: <em>"The PHP Framework For Web Artisans"</em>.</li>
+</ul>
+<h3>Cloud Computing: Google Cloud Platform</h3>
+<ul>
+<li>Team có sự tài trợ từ một agency GCP nên đã chọn luôn GCP để làm architecture cho dự án.</li>
+<li>Với mình thì đây cũng là một làn gió mới khi suốt một năm vừa qua mình chỉ sử dụng AWS.
+<span class="gatsby-resp-image-wrapper" style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 740px; ">
+      <a class="gatsby-resp-image-link" href="/static/2d084c79c4165e7a5f2484c67999d995/c7cf8/gcp.png" style="display: block" target="_blank" rel="noopener">
+    <span class="gatsby-resp-image-background-image" style="padding-bottom: 52.46699096594858%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABrElEQVQoz1VSy27UQBD0t+aUCMGBAxESH8IBRBCQKPkhbpySXdvj93ienpmiu8lEZKTy7Pajurrs5vJbi4vPf/Duh8LVTY833ztcfGlx9fWEj7cdPj2Mguu7AR9+EW5f4/JG4e1Phff3HXGc0OhlxPn0COc8jHFIwSBHi+A0ojcoKSAfHsiBEEEFEivpOVai3J76o/doNr2DYZ3FcRwI8cA4zhLzIaIUYN00xmmG90ROAe8jpmkhAZaEBETq0VrDWovG0GPdNuy7EUIGx/S+U7ET5Xxzs7UOOWUsesOTavHYtzgNPUa9QK0TJr3SykTWtx1KzuBTWBKdlBKWZRHwkHoy1Rlj0Kse0zxhJXIf/ymPMaIJ9HiiKTEdrwi5sf7mK+ci/3lQCEHW22mLg/q5luM8WAh/k0KlLVgkN9VGYUJ5idU4+6WUEiuYpBJ6fimRjHc20DSHeCRJMrjQeQLlQ0yUy4KUeOVdCDeyi4nqMFHIwXN7FvY6SaYRkd6tNHlaUXLPw1gZr8te1lVfVp7nGV3Xi0f/H05qMpyb2LP6BbDx/EUMwyDErKz6zbm/5yn6EyB2PVAAAAAASUVORK5CYII='); background-size: cover; display: block;"/>
+  <picture>
+          <source srcset="/static/2d084c79c4165e7a5f2484c67999d995/446c7/gcp.webp 185w,
+/static/2d084c79c4165e7a5f2484c67999d995/8522b/gcp.webp 370w,
+/static/2d084c79c4165e7a5f2484c67999d995/391b8/gcp.webp 740w,
+/static/2d084c79c4165e7a5f2484c67999d995/1982a/gcp.webp 1110w,
+/static/2d084c79c4165e7a5f2484c67999d995/264d3/gcp.webp 1480w,
+/static/2d084c79c4165e7a5f2484c67999d995/2099b/gcp.webp 2878w" sizes="(max-width: 740px) 100vw, 740px" type="image/webp"/>
+          <source srcset="/static/2d084c79c4165e7a5f2484c67999d995/34758/gcp.png 185w,
+/static/2d084c79c4165e7a5f2484c67999d995/7c627/gcp.png 370w,
+/static/2d084c79c4165e7a5f2484c67999d995/86f95/gcp.png 740w,
+/static/2d084c79c4165e7a5f2484c67999d995/70731/gcp.png 1110w,
+/static/2d084c79c4165e7a5f2484c67999d995/9ee4f/gcp.png 1480w,
+/static/2d084c79c4165e7a5f2484c67999d995/c7cf8/gcp.png 2878w" sizes="(max-width: 740px) 100vw, 740px" type="image/png"/>
+          <img class="gatsby-resp-image-image" src="/static/2d084c79c4165e7a5f2484c67999d995/86f95/gcp.png" alt="gcp" title="gcp" loading="lazy" style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"/>
+        </picture>
+  </a>
+    </span></li>
+</ul>
+<h3>Code Repository: Github</h3>
+<ul>
+<li>Tụi mình sẽ public code dự án cho tới khi phiên bản chính thức được ra mắt.</li>
+<li>Nếu bạn có quan tâm thì có thể follow Github của dự án tại: <a href="https://github.com/RunWaves" target="_blank">https://github.com/RunWaves</a></li>
+</ul>
+<h3>Project Management: Trello</h3>
+<ul>
+<li>Team dùng Trello để note lại những thông tin quan trọng cũng như chia task &#x26; theo dõi task.</li>
+<li>Trello có giao diện Kanban board trực quan &#x26; dễ nắm được tổng thể dự án, cũng như hỗ trợ khá nhiều plugin miễn phí.</li>
+<li>Với dự án nhỏ thì Trello là một project management app mà tụi mình highly recommend.
+<span class="gatsby-resp-image-wrapper" style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 740px; ">
+      <a class="gatsby-resp-image-link" href="/static/4d3e2748869d30bf164f17c2c5c767fe/c7cf8/trello.png" style="display: block" target="_blank" rel="noopener">
+    <span class="gatsby-resp-image-background-image" style="padding-bottom: 52.050034746351635%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAACyUlEQVQozyWQW0iTARTHP+it1156CAqyey8lUT0UdINCya6o60KWdtN0mpZzXhhlRVLaBUvtpmZkhcvSpqaOJa6co2xuzencxdt0upmXtmyjX5924Af/czjncM5fiHxUzdEn74kuUhIlElbwiuWZRXMslT9kfdZ9NivusvrKM1Zdfcaaa+WszS0TdSmrc0tZKeqVisfsLqwi4s4LhNxPXSiaf3Bba6Wk3UpNhxWtfYTPzlFU5gE0xl50jkFanR4aeof5YHJQYx6ipc9Lg9VNm1hrF/v19mFutlkREurNxL81kPLOQF6zkRG3B4JBZsPlCzDV54Cpibl8wOPlt8WEf3wKZiZQdVmIbDJxptWC9EsPe0Ut3K3VUF7bSFmdBmWrHtvwOJMzQf76vHTZrHh+/sLv8+MPBFE53NzRWbj/zcaTTjsn1QYWvmlnSVU7IUo9Gz98Rzhw/jTrd20jdPsWEmSX8IyNE/D/ZnJ6mi5HP5PeSXzTPvgzQ5PFyZ5GE/sajYQ3GNj/sRNJkxGJ+NkxtYkYjRmh7MVzHtzL515+HuWVlXzrc2NwujD0u6k32agy2ak299FsG6LcYCNOpSe5qYPMz6L3uu45cr5YyBa5/rUXwev/79dsOKdmOFOtJU2lI1/TQYnWSFiFmowaLVFKLeuK64h7qSZJ2UJKbRvZ6g5ia3UoWjop1IvLPxkRzDbXnEfBwB96Bt2sUJSy6UYFG0R23npJiKKM0OQ8FqQXMz/9ETsKXhP7tIattytZdq2CRVees0BWwuK0QuadvoUwOjZGIPD/ykGXi9jEOCLPxXI4/hwRCYkcSZdzKFHKicwcYi6lES1NRHLhLAdPHWd/jISomEgiDocRfmA3kmN7Eex2O/0DQ4yOeuju6UGekUT65QRksiSyc9KQZ13kYup5MuQpyLNTkcmTRZ0kIhVJRp4p5bLYPzuTIfIPMEJRc1RIeWsAAAAASUVORK5CYII='); background-size: cover; display: block;"/>
+  <picture>
+          <source srcset="/static/4d3e2748869d30bf164f17c2c5c767fe/446c7/trello.webp 185w,
+/static/4d3e2748869d30bf164f17c2c5c767fe/8522b/trello.webp 370w,
+/static/4d3e2748869d30bf164f17c2c5c767fe/391b8/trello.webp 740w,
+/static/4d3e2748869d30bf164f17c2c5c767fe/1982a/trello.webp 1110w,
+/static/4d3e2748869d30bf164f17c2c5c767fe/264d3/trello.webp 1480w,
+/static/4d3e2748869d30bf164f17c2c5c767fe/2099b/trello.webp 2878w" sizes="(max-width: 740px) 100vw, 740px" type="image/webp"/>
+          <source srcset="/static/4d3e2748869d30bf164f17c2c5c767fe/34758/trello.png 185w,
+/static/4d3e2748869d30bf164f17c2c5c767fe/7c627/trello.png 370w,
+/static/4d3e2748869d30bf164f17c2c5c767fe/86f95/trello.png 740w,
+/static/4d3e2748869d30bf164f17c2c5c767fe/70731/trello.png 1110w,
+/static/4d3e2748869d30bf164f17c2c5c767fe/9ee4f/trello.png 1480w,
+/static/4d3e2748869d30bf164f17c2c5c767fe/c7cf8/trello.png 2878w" sizes="(max-width: 740px) 100vw, 740px" type="image/png"/>
+          <img class="gatsby-resp-image-image" src="/static/4d3e2748869d30bf164f17c2c5c767fe/86f95/trello.png" alt="trello" title="trello" loading="lazy" style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"/>
+        </picture>
+  </a>
+    </span></li>
+</ul>
+<blockquote>
+<p>Trong series <strong>RunWaves</strong> này, tụi mình sẽ chia sẻ lại hết toàn bộ những gì đã học &#x26; làm được trong suốt quá trình xây dựng sản phẩm. Nhưng với những kinh nghiệm ít ỏi của team thì chắc chắn sẽ còn nhiều thứ chưa được chuẩn chỉ nên tụi mình rất mong nhận được nhiều ý kiến đóng góp từ mọi người thông qua email mình là <strong>tvq9612@gmail.com</strong>. Mỗi một email góp ý đều có giá trị rất lớn với team ạ. 🥰</p>
+</blockquote>
+<p>Cảm ơn bạn đã đọc đến đây và hẹn gặp lại ở bài #2 tiếp theo!</p>]]></content:encoded></item><item><title><![CDATA[Authentication Types]]></title><description><![CDATA[What is Authentication? Authentication is the process of identifying users that request access to a system, network, or device. Access…]]></description><link>authentication-types</link><guid isPermaLink="true">authentication-types</guid><dc:creator><![CDATA[Tat Vi Quyen]]></dc:creator><media:content url="https://tatviquyen.name.vn/static/c41579e41a294ac21b3066c5f5352fd1/14dee/feature.jpg" medium="image"/><content:encoded><![CDATA[<h2>What is Authentication?</h2>
 <img src="https://tatviquyen.name.vn/static/c41579e41a294ac21b3066c5f5352fd1/14dee/feature.jpg"/><p>Authentication is the process of identifying users that request access to a system, network, or device. Access control often determines user identity according to credentials like username and password. Other authentication technologies like biometrics and authentication apps are also used to authenticate user identity.</p>
 <h2>Authentication Types</h2>
 <h4>Basic Authentication</h4>
