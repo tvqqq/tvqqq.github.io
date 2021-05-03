@@ -1294,9 +1294,9 @@ code.language-text {
     overflow-wrap: break-word;
     word-wrap: break-word;
     padding: .1rem .3rem .2rem;
-    background: rgba(14,30,37,.09);
     border: 2px solid transparent;
     border-radius: 4px;
+    background: #001628;
 }
 
 .gatsby-highlight {
