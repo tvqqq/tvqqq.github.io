@@ -1,4 +1,159 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[Tất Vĩ Quyền]]></title><description><![CDATA[Kĩ sư mặt sau thích sống trên mây ☁️]]></description><link>https://tatviquyen.name.vn/</link><image><url>https://tatviquyen.name.vn/undefined</url><title>Tất Vĩ Quyền</title><link>https://tatviquyen.name.vn/</link></image><generator>Ghost 2.9</generator><lastBuildDate>Mon, 19 Apr 2021 05:12:56 GMT</lastBuildDate><atom:link href="https://tatviquyen.name.vn/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[RunWaves #1: Hành trình mới]]></title><description><![CDATA[Cách RunWaves ra đời Xuất phát từ ý tưởng xây dựng một trang web dành cho những người bạn yêu thích chạy bộ có thể lưu lại thành tích chạy…]]></description><link>runwaves-1-hanh-trinh-moi</link><guid isPermaLink="true">runwaves-1-hanh-trinh-moi</guid><dc:creator><![CDATA[Tat Vi Quyen]]></dc:creator><media:content url="https://tatviquyen.name.vn/static/7f0a595bb3ceccddf660bc3986f0b3c3/14dee/feature.jpg" medium="image"/><content:encoded><![CDATA[<h2>Cách RunWaves ra đời</h2>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[Tất Vĩ Quyền]]></title><description><![CDATA[Kĩ sư mặt sau thích sống trên mây ☁️]]></description><link>https://tatviquyen.name.vn/</link><image><url>https://tatviquyen.name.vn/undefined</url><title>Tất Vĩ Quyền</title><link>https://tatviquyen.name.vn/</link></image><generator>Ghost 2.9</generator><lastBuildDate>Mon, 03 May 2021 03:56:17 GMT</lastBuildDate><atom:link href="https://tatviquyen.name.vn/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[RunWaves #2: GCP Architecture]]></title><description><![CDATA[Architecture Overview Để đơn giản hóa việc deployment và hosting code trên Google Cloud Platform, mình đã nghiên cứu và xây dựng một kiến…]]></description><link>runwaves-2-gcp-architecture</link><guid isPermaLink="true">runwaves-2-gcp-architecture</guid><dc:creator><![CDATA[Tat Vi Quyen]]></dc:creator><media:content url="https://tatviquyen.name.vn/static/84cd22366b69ce4d695d9d6963d4538e/14dee/feature.jpg" medium="image"/><content:encoded><![CDATA[<h2>Architecture Overview</h2>
+<ul>
+<li>Để đơn giản hóa việc deployment và hosting code trên Google Cloud Platform, mình đã nghiên cứu và xây dựng một kiến trúc cloud cơ bản. Ý tưởng là chia ra Front End và Back End thành hai phần tách biệt và sử dụng các service được recommend cho mỗi phần.</li>
+<li>Đây là sơ đồ về tổng quan kiến trúc và flow chính cho CI/CD.
+<span class="gatsby-resp-image-wrapper" style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 740px; ">
+      <a class="gatsby-resp-image-link" href="/static/d0fae3869b559cd5ebaf40803b0d2d3f/3cc52/runwaves-architecture.png" style="display: block" target="_blank" rel="noopener">
+    <span class="gatsby-resp-image-background-image" style="padding-bottom: 62.16748768472906%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAACXElEQVQoz1VTTW/aQBD1P+1PaK/9A71V4sSh6q09VFWlhkrQpiKV0g8JiaQEAjYkJoEkdnBsA17vrr3+4HXWSSgZ6Wm8tvbNzJtnY7PZoCgK6KyhI00SLJwb+EGAIPTB4hgykRBSQsr7LISo7ul4vKezgd14+JDnCmLNIfwYIkyQLiW4L5CEAvIBnBFh+Z/wEcZ6vUar1UIUsYovL0pIlSFZchz+ifHqPcP5iCFbxPj+k+P1hxjeBYckwrya7ElLMGzbRq1Ww/zKQUYFhVRgMqPOOFqHHM/rSwz6SyS3K3xqc7x8G8Kx44owywuURBiEITzPg+M4MJRSiEmjLFPbKpkemcaMrhiuxwtIl0Z2E7BrBs8O7s+RQPkw8tlkAtM00el0YOi5y7LcCqtDZRnikCG6WSNy1mAuQ3zLKEcVYjrziG81FEKi2z3C3d0djIwu+76PkNrWLzh1m1OB1eUUq5MuNhcW0jMTCSE7N1FO6Xk8JEmCSkMdurN6vY4vjQaM1WqF/f19tNttNJtNWJZJhBvI6xnkcICb4wkyIignQ7DhCG5vjNzqQwR+tUAdR90ufhwcoLG3ByNNU2hSxtg2S5UDixl+tad4VuPo/T7Dxu7h3WcXL96Qjn+HUEu/Kvy4Zs/zK19ufah11Kg0pA/KmcM5MvGxMUUwMAF7CLNzjq/fppCjAXmRCHYMvbXN7h9SZYImFFdzFGYPyegY+fgUyjpFMe4TelCjEyIMsSQPW5ZV2SVJ1VPCXWKV5+Ae2WU2hZjPIGaXlC/BKXM6c1qYILKIFui6brVUbT8d/wBNw4UMyD++sgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"/>
+  <picture>
+          <source srcset="/static/d0fae3869b559cd5ebaf40803b0d2d3f/446c7/runwaves-architecture.webp 185w,
+/static/d0fae3869b559cd5ebaf40803b0d2d3f/8522b/runwaves-architecture.webp 370w,
+/static/d0fae3869b559cd5ebaf40803b0d2d3f/391b8/runwaves-architecture.webp 740w,
+/static/d0fae3869b559cd5ebaf40803b0d2d3f/33e35/runwaves-architecture.webp 1015w" sizes="(max-width: 740px) 100vw, 740px" type="image/webp"/>
+          <source srcset="/static/d0fae3869b559cd5ebaf40803b0d2d3f/34758/runwaves-architecture.png 185w,
+/static/d0fae3869b559cd5ebaf40803b0d2d3f/7c627/runwaves-architecture.png 370w,
+/static/d0fae3869b559cd5ebaf40803b0d2d3f/86f95/runwaves-architecture.png 740w,
+/static/d0fae3869b559cd5ebaf40803b0d2d3f/3cc52/runwaves-architecture.png 1015w" sizes="(max-width: 740px) 100vw, 740px" type="image/png"/>
+          <img class="gatsby-resp-image-image" src="/static/d0fae3869b559cd5ebaf40803b0d2d3f/86f95/runwaves-architecture.png" alt="runwaves architecture" title="runwaves architecture" loading="lazy" style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"/>
+        </picture>
+  </a>
+    </span></li>
+</ul>
+<h2>Front End</h2>
+<ul>
+<li><strong>GCP services: Cloud Load Balancing, Cloud Storage</strong></li>
+<li><strong>Cloud Storage</strong> là một service cung cấp việc host các static files (ví dụ: HTML, CSS, JS hoặc media, hình ảnh,...). Code ReactJs sau khi build thì cũng là những static files nên mình viết phần build ở Github Actions và upload những file tĩnh đó lên Cloud Storage.</li>
+<li>Tuy nhiên, để có thể truy cập Cloud Storage như một website và sử dụng giao thức HTTPS, mình cần dùng thêm <strong>Cloud Load Balancing</strong> để tạo một CDN. Sau khi tạo LB xong sẽ được cấp một IP, công việc tiếp theo là vào <strong>CloudFlare</strong> trỏ domain FE vào IP này (easy game 😎).
+<span class="gatsby-resp-image-wrapper" style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 740px; ">
+      <a class="gatsby-resp-image-link" href="/static/5735ad57ee2db74f58006388d04ffe63/978eb/load-balancing.png" style="display: block" target="_blank" rel="noopener">
+    <span class="gatsby-resp-image-background-image" style="padding-bottom: 71.44654088050314%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAACPUlEQVQ4y4VSTW/TQBD1r+CKRAWcAFW9ICR+ERdQVKgK/I6cU4SgBKGoB8qFKlRCgEQRPXDJRyPSuDRxEtvr/fD3Y2eNnaQCMfLT7O7Mvnkza2ut1sf1zT42npzgxlYft7b7uLnVxdqDDq7VOrha6+Hy/R4u3evgivZ3Hvdw92kPt7d7WH/YxcajArRe3+zC2jkY4nn7FLuHI7z4MMLLQxv7xwx73zhaRxy7H8d41rax0z7DzvtTvD3ycPBD4s2XAHtfA7z6xPD6M8P+d453xwJW4LtQIkAopYZAEgoAmUauvxCJ9BCLORBzfSz1eYrC8gsozPo1TzB2E/wcK5y7KZgCPJGDK33ueJg4M9hn52ABR5LmSLPc+Cwr1lm2WBMspSQ4DzB1JkiSuKqUpBkcV0GpEGFYQEpZaMuJJDP+4t6K4xhCCMxmM02YVISUMHZcrUxi2UJFRZRZk3ddF1EUVcQWkRCh4zgrASIUMtLqJer1OprNpikoQmXyKE5+Op2CRK0QUisU8DyvaoMuxFEIGkmj0UCr1UKappgoF3OtikSQcc7NeUVIZBQk6cuElORMXV1oBsb8okC8mDHFy9ZLW2m5VEiXKEBgPESgX1doFeW8SACtydOYyBNKlVY5C8aYvhwYT2cE5nvmMhWhwoTyxYmg2EdmT/mGEP8wSrZt2ygvx/A/My2X7S2jnNFoNEKn08FgMMBwOITv+0YNqaZuuNC/UJRDhWl1z/pblfKV1Z9/riSgcSwIWUUolwh/A4RIHA76LHsrAAAAAElFTkSuQmCC'); background-size: cover; display: block;"/>
+  <picture>
+          <source srcset="/static/5735ad57ee2db74f58006388d04ffe63/446c7/load-balancing.webp 185w,
+/static/5735ad57ee2db74f58006388d04ffe63/8522b/load-balancing.webp 370w,
+/static/5735ad57ee2db74f58006388d04ffe63/391b8/load-balancing.webp 740w,
+/static/5735ad57ee2db74f58006388d04ffe63/1982a/load-balancing.webp 1110w,
+/static/5735ad57ee2db74f58006388d04ffe63/264d3/load-balancing.webp 1480w,
+/static/5735ad57ee2db74f58006388d04ffe63/0d522/load-balancing.webp 1590w" sizes="(max-width: 740px) 100vw, 740px" type="image/webp"/>
+          <source srcset="/static/5735ad57ee2db74f58006388d04ffe63/34758/load-balancing.png 185w,
+/static/5735ad57ee2db74f58006388d04ffe63/7c627/load-balancing.png 370w,
+/static/5735ad57ee2db74f58006388d04ffe63/86f95/load-balancing.png 740w,
+/static/5735ad57ee2db74f58006388d04ffe63/70731/load-balancing.png 1110w,
+/static/5735ad57ee2db74f58006388d04ffe63/9ee4f/load-balancing.png 1480w,
+/static/5735ad57ee2db74f58006388d04ffe63/978eb/load-balancing.png 1590w" sizes="(max-width: 740px) 100vw, 740px" type="image/png"/>
+          <img class="gatsby-resp-image-image" src="/static/5735ad57ee2db74f58006388d04ffe63/86f95/load-balancing.png" alt="load balancing" title="load balancing" loading="lazy" style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"/>
+        </picture>
+  </a>
+    </span></li>
+<li>
+<img src="https://tatviquyen.name.vn/static/84cd22366b69ce4d695d9d6963d4538e/14dee/feature.jpg"/><p>Đây là <strong>Github Actions Workflow</strong> cho repo <a href="https://github.com/RunWaves/reactjs" target="_blank">ReactJs</a>, mỗi khi dev push code hoặc merge vào branch <code class="language-text">develop</code> thì Action này sẽ được trigger để build và upload lên Cloud Storage.</p>
+<div class="gatsby-highlight" data-language="yml"><pre class="language-yml"><code class="language-yml"><span class="token key atrule">name</span><span class="token punctuation">:</span> ReactJs Deploy
+
+<span class="token key atrule">on</span><span class="token punctuation">:</span>
+    <span class="token key atrule">push</span><span class="token punctuation">:</span>
+        <span class="token key atrule">branches</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> develop
+    <span class="token key atrule">pull_request</span><span class="token punctuation">:</span>
+        <span class="token key atrule">branches</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> develop
+
+<span class="token key atrule">jobs</span><span class="token punctuation">:</span>
+    <span class="token key atrule">build</span><span class="token punctuation">:</span>
+        <span class="token key atrule">runs-on</span><span class="token punctuation">:</span> ubuntu<span class="token punctuation">-</span>latest
+        <span class="token key atrule">steps</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/checkout@v2
+
+            <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Setup Node.js <span class="token comment"># setup Node.js in the runner</span>
+            <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/setup<span class="token punctuation">-</span>node@v1
+            <span class="token key atrule">with</span><span class="token punctuation">:</span>
+                <span class="token key atrule">node-version</span><span class="token punctuation">:</span> <span class="token string">"12"</span>
+            <span class="token punctuation">-</span> <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/cache@v2
+            <span class="token key atrule">with</span><span class="token punctuation">:</span>
+                <span class="token key atrule">path</span><span class="token punctuation">:</span> ~/.npm
+                <span class="token key atrule">key</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> runner.os <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">-</span>node<span class="token punctuation">-</span>$<span class="token punctuation">{</span><span class="token punctuation">{</span> hashFiles('<span class="token important">**/package-lock.json')</span> <span class="token punctuation">}</span><span class="token punctuation">}</span>
+                <span class="token key atrule">restore-keys</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> runner.os <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">-</span>node<span class="token punctuation">-</span>
+            <span class="token punctuation">-</span> <span class="token key atrule">run</span><span class="token punctuation">:</span> npm ci <span class="token comment"># install dependencies</span>
+            <span class="token punctuation">-</span> <span class="token key atrule">run</span><span class="token punctuation">:</span> npm run build <span class="token punctuation">-</span><span class="token punctuation">-</span>if<span class="token punctuation">-</span>present <span class="token comment"># build the project</span>
+            <span class="token comment"># - run: npm run test:unit # run the tests</span>
+
+            <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Setup <span class="token punctuation">-</span> gcloud / gsutil
+            <span class="token key atrule">uses</span><span class="token punctuation">:</span> google<span class="token punctuation">-</span>github<span class="token punctuation">-</span>actions/setup<span class="token punctuation">-</span>gcloud@master
+            <span class="token key atrule">with</span><span class="token punctuation">:</span>
+                <span class="token key atrule">service_account_key</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.GCS_SA_KEY <span class="token punctuation">}</span><span class="token punctuation">}</span>
+                <span class="token key atrule">project_id</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.GCS_PROJECT <span class="token punctuation">}</span><span class="token punctuation">}</span>
+                <span class="token key atrule">export_default_credentials</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+
+            <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Deploy static site to GS bucket
+            <span class="token key atrule">run</span><span class="token punctuation">:</span> <span class="token punctuation">|</span><span class="token punctuation">-</span>
+                gsutil <span class="token punctuation">-</span>m rsync <span class="token punctuation">-</span>r build gs<span class="token punctuation">:</span>//$<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.GCS_BUCKET <span class="token punctuation">}</span><span class="token punctuation">}</span></code></pre></div>
+</li>
+</ul>
+<h2>Back End</h2>
+<ul>
+<li><strong>GCP services: Compute Instance, Cloud SQL</strong></li>
+<li>Đối với phần code backend, cụ thể là Laravel, mình chọn deploy lên một <strong>Virtual Machine (VM)</strong> với setup <strong>Nginx + PHP + Composer</strong>.</li>
+<li>Database thì mình dùng <strong>Cloud SQL</strong> để chạy riêng một MySQL server, giảm tải phần xử lý DB cho server backend ở trên.</li>
+<li>
+<p><strong>Github Actions Workflow</strong> cho repo <a href="https://github.com/RunWaves/api" target="_blank">Laravel</a></p>
+<div class="gatsby-highlight" data-language="yml"><pre class="language-yml"><code class="language-yml"><span class="token key atrule">name</span><span class="token punctuation">:</span> Laravel Deploy
+
+<span class="token key atrule">on</span><span class="token punctuation">:</span>
+    <span class="token key atrule">push</span><span class="token punctuation">:</span>
+        <span class="token key atrule">branches</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> develop
+    <span class="token key atrule">pull_request</span><span class="token punctuation">:</span>
+        <span class="token key atrule">branches</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> develop
+
+<span class="token key atrule">jobs</span><span class="token punctuation">:</span>
+    <span class="token key atrule">build</span><span class="token punctuation">:</span>
+        <span class="token key atrule">runs-on</span><span class="token punctuation">:</span> ubuntu<span class="token punctuation">-</span>latest
+        <span class="token key atrule">steps</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/checkout@v2
+
+            <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Executing remote ssh commands
+            <span class="token key atrule">uses</span><span class="token punctuation">:</span> appleboy/ssh<span class="token punctuation">-</span>action@master
+            <span class="token key atrule">with</span><span class="token punctuation">:</span>
+                <span class="token key atrule">host</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.SERVER_IP <span class="token punctuation">}</span><span class="token punctuation">}</span>
+                <span class="token key atrule">username</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.SERVER_USERNAME <span class="token punctuation">}</span><span class="token punctuation">}</span>
+                <span class="token key atrule">key</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.KEY_SSH <span class="token punctuation">}</span><span class="token punctuation">}</span>
+                <span class="token key atrule">script</span><span class="token punctuation">:</span> <span class="token punctuation">|</span><span class="token scalar string">
+                    cd /opt/runwaves-api
+                    php artisan down
+                    git pull origin develop
+                    php artisan optimize:clear
+                    composer install --optimize-autoloader --no-dev
+                    php artisan optimize
+                    php artisan up</span></code></pre></div>
+</li>
+</ul>
+<h2>Billing</h2>
+<ul>
+<li>Cấu hình cho các service trên cũng khá cơ bản và chi phí một tháng rơi vào tầm <strong>$40 - $45</strong>.
+<span class="gatsby-resp-image-wrapper" style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 740px; ">
+      <a class="gatsby-resp-image-link" href="/static/cdc7540733c41ac84f71a7a951e75e46/b2886/billing.png" style="display: block" target="_blank" rel="noopener">
+    <span class="gatsby-resp-image-background-image" style="padding-bottom: 32.8125%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABHUlEQVQoz42QSW7DMAxFfdJujQK9Uy8QID1Dt9kHRYqunLRIPMqDJlJkScUNusgihJ4oyTTxP4u6vnDTtBxC4JQSxxg5CPFB/ofeCzNHnibDXddlbkVEut2F8jfO9ZvNhrfbN97tdgwAXMw2cN2NPJiJp9kyJmJZV/Qs4B3UzTzPXFUVH08nbtuWEZMqDPS+93QeEp2aQNXFC46qWnINdGyBfrob/C35PCCFCLmhc45Qmos6zVRYa3H/ccDD5xeacURjRhyGAcdxQrMg2pBQLEIiSpSVa3DevPe8zuEvY6EnJH4ocpd1hoiY563WvQ/U932uKSKk0gcoAbBcrCvFQhkjXIH8/ix2nmQ+r/qDKlV7qm6FQBQ559tlWV5+AUhbGU29soMOAAAAAElFTkSuQmCC'); background-size: cover; display: block;"/>
+  <picture>
+          <source srcset="/static/cdc7540733c41ac84f71a7a951e75e46/446c7/billing.webp 185w,
+/static/cdc7540733c41ac84f71a7a951e75e46/8522b/billing.webp 370w,
+/static/cdc7540733c41ac84f71a7a951e75e46/391b8/billing.webp 740w,
+/static/cdc7540733c41ac84f71a7a951e75e46/1982a/billing.webp 1110w,
+/static/cdc7540733c41ac84f71a7a951e75e46/264d3/billing.webp 1480w,
+/static/cdc7540733c41ac84f71a7a951e75e46/3f6d5/billing.webp 4096w" sizes="(max-width: 740px) 100vw, 740px" type="image/webp"/>
+          <source srcset="/static/cdc7540733c41ac84f71a7a951e75e46/34758/billing.png 185w,
+/static/cdc7540733c41ac84f71a7a951e75e46/7c627/billing.png 370w,
+/static/cdc7540733c41ac84f71a7a951e75e46/86f95/billing.png 740w,
+/static/cdc7540733c41ac84f71a7a951e75e46/70731/billing.png 1110w,
+/static/cdc7540733c41ac84f71a7a951e75e46/9ee4f/billing.png 1480w,
+/static/cdc7540733c41ac84f71a7a951e75e46/b2886/billing.png 4096w" sizes="(max-width: 740px) 100vw, 740px" type="image/png"/>
+          <img class="gatsby-resp-image-image" src="/static/cdc7540733c41ac84f71a7a951e75e46/86f95/billing.png" alt="billing" title="billing" loading="lazy" style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"/>
+        </picture>
+  </a>
+    </span></li>
+</ul>
+<blockquote>
+<p>Trong series <strong>RunWaves</strong> này, tụi mình sẽ chia sẻ lại hết toàn bộ những gì đã học &#x26; làm được trong suốt quá trình xây dựng sản phẩm. Nhưng với những kinh nghiệm ít ỏi của team thì chắc chắn sẽ còn nhiều thứ chưa được chuẩn chỉ nên tụi mình rất mong nhận được nhiều ý kiến đóng góp từ mọi người thông qua email mình là <strong>tvq9612@gmail.com</strong>. Mỗi một email góp ý đều có giá trị rất lớn với team ạ. 🥰</p>
+</blockquote>
+<p>Hai bài đầu tiên trong series này mình chỉ mới giới thiệu tổng quan về RunWaves, những bài tiếp theo mình sẽ đi sâu hơn vào technical của từng vấn đề. Hẹn gặp lại ở bài #3 👋!</p>]]></content:encoded></item><item><title><![CDATA[RunWaves #1: Hành trình mới]]></title><description><![CDATA[Cách RunWaves ra đời Xuất phát từ ý tưởng xây dựng một trang web dành cho những người bạn yêu thích chạy bộ có thể lưu lại thành tích chạy…]]></description><link>runwaves-1-hanh-trinh-moi</link><guid isPermaLink="true">runwaves-1-hanh-trinh-moi</guid><dc:creator><![CDATA[Tat Vi Quyen]]></dc:creator><media:content url="https://tatviquyen.name.vn/static/7f0a595bb3ceccddf660bc3986f0b3c3/14dee/feature.jpg" medium="image"/><content:encoded><![CDATA[<h2>Cách RunWaves ra đời</h2>
 <ul>
 <li>Xuất phát từ ý tưởng xây dựng một trang web dành cho những người bạn yêu thích chạy bộ có thể lưu lại thành tích chạy của mình và cạnh tranh với nhau trên bảng xếp hạng theo tuần và tích lũy.</li>
 <li>Tầm nhìn xa hơn xíu sẽ là một mạng xã hội dành cho người yêu chạy bộ có thể kết nối với nhau, chia sẻ về những kinh nghiệm, trải nghiệm chạy bộ cùng với hệ thống điểm &#x26; quà tặng và nhiều tính năng hay ho nữa sẽ bật mí sau.</li>
