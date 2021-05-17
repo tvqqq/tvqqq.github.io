@@ -15,6 +15,10 @@ const ImageMeta = ({ image }) => {
             <meta property="og:image" content={image} />
             <meta property="og:image:width" content={config.shareImageWidth} />
             <meta property="og:image:height" content={config.shareImageHeight} />
+            {/* Google Analytics
+            GA4: 14/02/2021
+            GA Universal (UA): 17/05/2021
+            */}
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-D8J42ZP344"></script>
             <script>
                 {`
@@ -22,6 +26,7 @@ const ImageMeta = ({ image }) => {
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
                     gtag('config', 'G-D8J42ZP344');
+                    gtag('config', 'UA-189687920-1');
                 `}
             </script>
         </Helmet >
