@@ -54,7 +54,7 @@ const AboutMe = () => {
             img="images/cloud.png"
             alt="cloud image"
             textH4="Love Cloud (computing)"
-            textH3="Build things with Cloud"
+            textH3="Build things with ☁️"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>

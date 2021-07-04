@@ -1,8 +1,7 @@
 import {
   Col, Form, Input, Button, message,
 } from 'antd';
-import React from 'react';
-import Config from '../../../config';
+import React, { useState } from 'react';
 
 const validateMessages = {
   required: 'This field is required!',
@@ -11,8 +10,12 @@ const validateMessages = {
   },
 };
 export default () => {
+  const getformUrl = process.env.GATSBY_GETFORM_URL;
+  const [loading, setLoading] = useState(false);
   const [form] = Form.useForm();
+
   const onFinish = (data) => {
+    setLoading(true);
     const formData = new FormData();
     // eslint-disable-next-line no-restricted-syntax
     for (const key in data) {
@@ -21,13 +24,16 @@ export default () => {
       }
     }
 
-    fetch(Config.contactFormUrl, { method: 'POST', body: formData })
+    fetch(getformUrl, { method: 'POST', body: formData })
       .then(() => {
-        message.success('Thank you for your kind response 🙂. Will get back to you.');
+        message.success('Thank you for your kind response 🙂. Will get back to you!');
         form.resetFields();
       })
       // eslint-disable-next-line no-console
-      .catch((error) => console.error('Error:', error));
+      .catch((error) => console.error('Error:', error))
+      .finally(() => {
+        setLoading(false);
+      });
   };
 
   return (
@@ -43,8 +49,8 @@ export default () => {
           <Input.TextArea size="large" rows={7} placeholder="Description *" />
         </Form.Item>
         <Form.Item>
-          <Button type="primary" shape="round" size="large" htmlType="submit" style={{ background: '#125D98' }}>
-            SUBMIT
+          <Button type="primary" shape="round" size="large" htmlType="submit" style={{ background: '#125D98' }} loading={loading}>
+            SEND
           </Button>
         </Form.Item>
       </Form>
