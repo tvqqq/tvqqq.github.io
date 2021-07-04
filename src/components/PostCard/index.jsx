@@ -18,21 +18,23 @@ const PostCard = (props) => {
             backgroundImage: `url(${frontmatter ? frontmatter.cover.childImageSharp.fluid.src : ''})`,
           }}
         />
-        <div className={style.mrTp20}>
-          <h3 className={style.title}>{frontmatter ? frontmatter.title : ''}</h3>
-          <div className={style.meta}>
-            <span>{frontmatter ? moment(new Date(frontmatter.date)).format('DD-MM-YYYY') : ''}</span>
-            <span style={{ margin: '0px 2px 0 -2px', color: '#ccc' }}>
-              {' '}
-              <FontAwesomeIcon icon={faHashtag} size="sm" fixedWidth />
-            </span>
-            <span>
-              {`${frontmatter.tags.join(', ')}`}
-            </span>
-          </div>
-          <p>{excerpt}</p>
-        </div>
       </Link>
+      <div className={style.mrTp20}>
+        <Link to={Utils.resolvePageUrl(frontmatter.path)}>
+          <h3 className={style.title}>{frontmatter ? frontmatter.title : ''}</h3>
+        </Link>
+        <div className={style.meta}>
+          <span>{frontmatter ? moment(new Date(frontmatter.date)).format('DD-MM-YYYY') : ''}</span>
+          <span style={{ margin: '0px 2px 0 -2px', color: '#ccc' }}>
+            {' '}
+            <FontAwesomeIcon icon={faHashtag} size="sm" fixedWidth />
+          </span>
+          <span>
+            {`${frontmatter.tags.join(', ')}`}
+          </span>
+        </div>
+        <p>{excerpt}</p>
+      </div>
     </div>
   );
 };

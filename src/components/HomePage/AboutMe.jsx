@@ -30,7 +30,6 @@ const AboutMe = () => {
         <p>{pageText.paraOne}</p>
         <p>{pageText.paraTwo}</p>
         <p>{pageText.paraThree}</p>
-        {/* <p dangerouslySetInnerHTML={domHtml(pageText.paraOne)} /> */}
       </div>
       <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>

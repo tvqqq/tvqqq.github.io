@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import {
-  Layout, Row, Col,
+  Layout, Row, Col, Typography,
 } from 'antd';
 /* App imports */
 import SEO from '../../components/Seo';
@@ -17,11 +17,12 @@ import Utils from '../../utils/pageUtils';
 import * as style from './tags.module.less';
 
 const TagPage = ({ data, pageContext }) => {
+  const { Text } = Typography;
   const { tag } = pageContext;
-  const tagName = Config.tags[tag].name || Utils.capitalize(tag);
+  const tagName = `#${tag}`;
   const tagPagePath = Config.pages.tag;
   const tagImage = data.allFile.edges.find((edge) => edge.node.name === tag).node
-    .childImageSharp.fluid;
+    .childImageSharp;
   const posts = data.allMarkdownRemark.edges;
   return (
     <Layout className="outerPadding">
@@ -32,20 +33,21 @@ const TagPage = ({ data, pageContext }) => {
           description={`All posts about ${tagName}. ${Config.tags[tag].description} `}
           path={Utils.resolvePageUrl(tagPagePath, tag)}
           keywords={[tagName]}
-          imageUrl={tagImage.src}
+          imageUrl={tagImage.fixed.src}
         />
         <SidebarWrapper>
           <div className={`marginTopTitle ${style.tagsList}`}>
-            <h1>
-              #
-              {tagName}
-            </h1>
-            <div className={style.bannerImgContainer}>
-              <Img className={style.bannerImg} fluid={tagImage} alt={tagName} />
-            </div>
-            <h4 className="textCenter">
-              {Config.tags[tag].description}
-            </h4>
+            <Row gutter={10}>
+              <Col xs={8} sm={6} md={6} lg={4}>
+                <div className={style.bannerImgContainer}>
+                  <Img className={style.bannerImg} fluid={tagImage.fluid} alt={tagName} />
+                </div>
+              </Col>
+              <Col xs={16} sm={18} md={18} lg={20}>
+                <h1 style={{ color: Config.tags[tag].color }}><strong>{tagName}</strong></h1>
+                <Text code>{Config.tags[tag].description}</Text>
+              </Col>
+            </Row>
           </div>
           <Row gutter={[20, 20]}>
             {posts.map((post, key) => (
@@ -116,7 +118,10 @@ export const pageQuery = graphql`query ($tag: String!) {
         node {
           name
           childImageSharp {
-            fluid(maxHeight: 600) {
+            fixed(width: 200, height: 200) {
+              ...GatsbyImageSharpFixed_tracedSVG
+            },
+            fluid(maxWidth: 300, maxHeight: 300) {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }

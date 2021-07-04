@@ -38,15 +38,16 @@ function SEO({
           : [];
         const pageUrl = Config.siteUrl + path;
         const metaImageUrl = Config.siteUrl + (imageUrl || data.file.childImageSharp.fixed.src);
+        const titleSEO = title + (path ? ` - ${Config.siteTitle}` : '');
 
         return (
           <Helmet
-            title={title + (path ? ` - ${Config.siteTitle}` : '')} // Page title
+            title={titleSEO} // Page title
             meta={
               [
                 { name: 'description', content: description }, // Page description
                 /* Open Graph */
-                { property: 'og:title', content: title },
+                { property: 'og:title', content: titleSEO },
                 { property: 'og:type', content: contentType || 'website' },
                 { property: 'og:url', content: pageUrl },
                 { property: 'og:description', content: description },
@@ -56,7 +57,7 @@ function SEO({
                 { property: 'og:locale', content: lang || 'en_US' },
                 /* Twitter card */
                 { name: 'twitter:card', content: 'summary_large_image' },
-                { name: 'twitter:title', content: title },
+                { name: 'twitter:title', content: titleSEO },
                 { name: 'twitter:description', content: description },
                 { name: 'twitter:image', content: metaImageUrl },
                 { name: 'twitter:image:alt', content: description },
