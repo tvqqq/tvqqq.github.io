@@ -1,0 +1,38 @@
+@import (reference) "../../styles/index.less";
+
+.sidebar404Img {
+  max-width: 750px;
+  margin: auto;
+}
+.boxContent {
+  padding: @padding-margin-val;
+}
+
+.textHover {
+  .goBackBtn {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-right: 15px;
+    border-radius: 50%;
+    background: rgb(219, 219, 219);
+    transition: all 0.15s ease-in-out 0s;
+    cursor: pointer;
+    &:hover {
+      background: #125d98;
+    }
+  }
+  &:hover {
+    color: #125d98;
+  }
+  span {
+    font-weight: 600;
+    font-size: 16px;
+  }
+}

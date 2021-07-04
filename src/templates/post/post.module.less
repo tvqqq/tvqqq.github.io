@@ -1,0 +1,99 @@
+@import (reference) "../../styles/index.less";
+@import (css)
+  url("https://fonts.googleapis.com/css2?family=Fraunces:wght@800&display=swap");
+
+.bannerImgContainer {
+  padding: 1rem 4rem;
+  .bannerImg {
+    border-radius: 10px;
+    box-shadow: 8px 28px 50px rgb(39 44 49 / 7%),
+      1px 6px 12px rgb(39 44 49 / 4%);
+  }
+  @media only screen and (max-width: 767px) {
+    padding: 1rem 0;
+  }
+}
+.blogTitle {
+  font-family: "Fraunces", serif;
+  font-weight: 800;
+  font-size: 220%;
+  margin-bottom: 0;
+}
+.meta {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 5px;
+}
+.blogArticle {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Fraunces", serif;
+    font-weight: 800;
+    margin-top: 3rem;
+    margin-bottom: 0.7rem;
+  }
+  h2 {
+    font-size: 200%;
+    & ~ h3 {
+      margin-top: 1rem;
+      font-size: 160%;
+    }
+  }
+  li,
+  p {
+    font-size: 1.15rem;
+    line-height: 1.8em;
+  }
+  ul {
+    margin-bottom: 1rem;
+
+    li > span > img {
+      margin-top: 1rem !important;
+    }
+  }
+  a {
+    color: #283d6a !important;
+    border-bottom: 1px dashed #283d6a59;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    padding-bottom: 0px;
+    &:hover {
+      text-decoration: none;
+      background-color: #7391d721 !important;
+      border-bottom-color: #5c74ac !important;
+    }
+  }
+
+  blockquote {
+    margin: 3em 1em 2em;
+    padding: 0 1.6em 0 1.6em;
+    border-left: #cbeafb 0.5em solid;
+
+    p {
+      margin: 0.8em 0;
+      font-weight: 300;
+    }
+
+    small {
+      display: inline-block;
+      margin: 0.8em 0 0.8em 1.5em;
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+    /* Quotation marks */
+    small:before {
+      content: "\2014 \00A0";
+    }
+
+    cite {
+      font-weight: bold;
+    }
+    cite a {
+      font-weight: normal;
+    }
+  }
+}

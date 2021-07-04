@@ -1,0 +1,30 @@
+name: Gatsby Deploy
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: fusion-engineering/setup-git-credentials@v2
+        with:
+          credentials: ${{secrets.GIT_CREDENTIALS}}
+      - run: git config --global user.email "tvq9612@gmail.com"
+      - run: git config --global user.name "quyendeptroaihihi"
+
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 12.x
+      - uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-node-
+      - run: yarn install --pure-lockfile
+      - run: 'echo "$ENV_VARS" > .env'
+        shell: bash
+        env:
+          ENV_VARS: ${{secrets.ENV}}
+      - run: yarn deploy
