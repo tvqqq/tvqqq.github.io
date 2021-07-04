@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+Sitemap: https://tatviquyen.name.vn/sitemap/sitemap-index.xml
+Host: https://tatviquyen.name.vn
