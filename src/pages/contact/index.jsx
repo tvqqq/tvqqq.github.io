@@ -36,7 +36,7 @@ const Contact = () => (
             src="../../images/undraw_under_construction_46pa.png"
             alt="contact"
             className="contactImgBorder"
-            width="600px"
+            width="100%"
           />
           <h3>Under Construction!</h3>
         </div>

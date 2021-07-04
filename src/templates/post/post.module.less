@@ -38,20 +38,32 @@
   }
   h2 {
     font-size: 200%;
+    @media screen and (max-width: 767px) {
+      font-size: 1.4rem;
+    }
     & ~ h3 {
       margin-top: 1rem;
       font-size: 160%;
+      @media screen and (max-width: 767px) {
+        font-size: 1.2rem;
+      }
     }
   }
   li,
   p {
     font-size: 1.15rem;
     line-height: 1.8em;
+    @media screen and (max-width: 767px) {
+      font-size: 1rem;
+    }
   }
   ul {
     margin-bottom: 1rem;
+    @media screen and (max-width: 767px) {
+      padding-left: 1rem;
+    }
 
-    li > span > img {
+    li span > img {
       margin-top: 1rem !important;
     }
   }
