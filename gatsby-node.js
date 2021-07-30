@@ -18,6 +18,18 @@ exports.createPages = ({ actions, graphql }) => {
             }
             fileAbsolutePath
           }
+          next {
+            frontmatter {
+              path
+              title
+            }
+          }
+          previous {
+            frontmatter {
+              path
+              title
+            }
+          }
         }
       }
     }    
@@ -27,7 +39,7 @@ exports.createPages = ({ actions, graphql }) => {
     const { allMarkdownRemark } = result.data;
 
     /* Post pages */
-    allMarkdownRemark.edges.forEach(({ node }) => {
+    allMarkdownRemark.edges.forEach(({ node, next, previous }) => {
       // Check path prefix of post
       if (node.frontmatter.path.indexOf(config.pages.blog) !== 0) {
         // eslint-disable-next-line no-throw-literal
@@ -40,6 +52,8 @@ exports.createPages = ({ actions, graphql }) => {
         context: {
           postPath: node.frontmatter.path,
           translations: utils.getRelatedTranslations(node, allMarkdownRemark.edges),
+          next,
+          previous,
         },
       });
     });

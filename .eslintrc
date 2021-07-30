@@ -8,5 +8,9 @@
     "window": true,
     "FormData": true,
     "fetch": true
+  },
+  "env": {
+    "browser": true,
+    "node": true
   }
 }

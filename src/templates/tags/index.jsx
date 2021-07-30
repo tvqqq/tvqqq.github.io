@@ -17,12 +17,12 @@ import Utils from '../../utils/pageUtils';
 import * as style from './tags.module.less';
 
 const TagPage = ({ data, pageContext }) => {
-  const { Text } = Typography;
+  const { Title } = Typography;
   const { tag } = pageContext;
   const tagName = `#${tag}`;
   const tagPagePath = Config.pages.tag;
-  const tagImage = data.allFile.edges.find((edge) => edge.node.name === tag).node
-    .childImageSharp;
+  const tagImage = data.allFile.edges.find((edge) => edge.node.name === tag)
+    .node.childImageSharp;
   const posts = data.allMarkdownRemark.edges;
   return (
     <Layout className="outerPadding">
@@ -40,18 +40,24 @@ const TagPage = ({ data, pageContext }) => {
             <Row gutter={10}>
               <Col xs={8} sm={6} md={6} lg={4}>
                 <div className={style.bannerImgContainer}>
-                  <Img className={style.bannerImg} fluid={tagImage.fluid} alt={tagName} />
+                  <Img
+                    className={style.bannerImg}
+                    fluid={tagImage.fluid}
+                    alt={tagName}
+                  />
                 </div>
               </Col>
               <Col xs={16} sm={18} md={18} lg={20}>
-                <h1 style={{ color: Config.tags[tag].color }}><strong>{tagName}</strong></h1>
-                <Text code>{Config.tags[tag].description}</Text>
+                <h1 style={{ color: Config.tags[tag].color, marginBottom: 3 }}>
+                  <strong>{tagName}</strong>
+                </h1>
+                <Title level={5}>{Config.tags[tag].description}</Title>
               </Col>
             </Row>
           </div>
-          <Row gutter={[20, 20]}>
+          <Row gutter={[40, 20]}>
             {posts.map((post, key) => (
-            // eslint-disable-next-line react/no-array-index-key
+              // eslint-disable-next-line react/no-array-index-key
               <Col key={key} xs={24} sm={24} md={12} lg={8}>
                 <PostCard data={post} />
               </Col>
@@ -86,8 +92,9 @@ TagPage.propTypes = {
   }).isRequired,
 };
 
-export const pageQuery = graphql`query ($tag: String!) {
-  allMarkdownRemark(
+export const pageQuery = graphql`
+  query ($tag: String!) {
+    allMarkdownRemark(
       filter: {
         frontmatter: { tags: { in: [$tag] } }
         fileAbsolutePath: { regex: "/index.md$/" }
@@ -120,7 +127,7 @@ export const pageQuery = graphql`query ($tag: String!) {
           childImageSharp {
             fixed(width: 200, height: 200) {
               ...GatsbyImageSharpFixed_tracedSVG
-            },
+            }
             fluid(maxWidth: 300, maxHeight: 300) {
               ...GatsbyImageSharpFluid_tracedSVG
             }

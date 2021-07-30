@@ -30,7 +30,7 @@ module.exports = {
     },
     finance: {
       name: 'finance',
-      description: 'Rule #1: Don\'t lose money.',
+      description: "Rule #1: Don't lose money.",
       color: '#89ae44',
     },
     code: {

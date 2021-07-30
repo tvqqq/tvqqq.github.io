@@ -24,10 +24,10 @@ const TagCard = (props) => {
               #
               {name}
             </h4>
+            <span>
+              {description}
+            </span>
           </div>
-          <p>
-            {description}
-          </p>
         </div>
       </div>
     </Link>

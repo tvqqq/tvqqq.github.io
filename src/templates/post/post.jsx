@@ -1,19 +1,22 @@
 import React from 'react';
-import { Layout } from 'antd';
-import { graphql } from 'gatsby';
+import { Layout, Row, Col } from 'antd';
+import { graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
 import moment from 'moment';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHashtag } from '@fortawesome/free-solid-svg-icons';
+import { faHashtag, faArrowCircleLeft, faArrowCircleRight } from '@fortawesome/free-solid-svg-icons';
 import Header from '../../components/PageLayout/Header';
 import SidebarWrapper from '../../components/PageLayout/Sidebar';
 import SEO from '../../components/Seo';
+import Comments from '../../components/Comment';
+import Utils from '../../utils/pageUtils';
 
 import 'prismjs/themes/prism-solarizedlight.css';
 import './highlight-syntax.less';
 import * as style from './post.module.less';
 
-const Post = ({ data }) => {
+const Post = ({ data, pageContext }) => {
+  const { next, previous } = pageContext;
   const { html, frontmatter, excerpt } = data.markdownRemark;
   const {
     title, cover: { childImageSharp: { fluid } }, path, date, tags,
@@ -47,7 +50,30 @@ const Post = ({ data }) => {
               <Img className={style.bannerImg} fluid={fluid} title={excerpt} alt={title} />
             </div>
             <article className={style.blogArticle} dangerouslySetInnerHTML={{ __html: html }} />
-            {/* <Comment pageCanonicalUrl={canonicalUrl} pageId={title} /> */}
+            <Row className={style.blogNav}>
+              <Col span={12}>
+                {next && (
+                <Link to={Utils.resolvePageUrl(next.frontmatter.path)}>
+                  <div className={style.navPost}>
+                    <FontAwesomeIcon icon={faArrowCircleLeft} />
+                    <span>{next.frontmatter.title}</span>
+                  </div>
+                </Link>
+                )}
+              </Col>
+              <Col span={12}>
+                {previous && (
+                <Link to={Utils.resolvePageUrl(previous.frontmatter.path)}>
+                  <div className={style.navPost} style={{ alignItems: 'flex-end', textAlign: 'right' }}>
+                    <FontAwesomeIcon icon={faArrowCircleRight} />
+                    {previous.frontmatter.title}
+                  </div>
+                </Link>
+                )}
+              </Col>
+            </Row>
+            {tags.includes('code')
+            && <Comments />}
           </div>
         </SidebarWrapper>
       </Layout>

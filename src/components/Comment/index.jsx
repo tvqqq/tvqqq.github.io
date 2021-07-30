@@ -1,50 +1,36 @@
-/* eslint-disable func-names */
-/* Vendor imports */
-import React from 'react';
-import PropTypes from 'prop-types';
-/* App imports */
-import Config from '../../../config';
+import React, { useEffect } from 'react';
+import { Divider } from 'antd';
 
-class Comments extends React.Component {
-  componentDidMount() {
-    const { pageCanonicalUrl, pageId } = this.props;
+const COMMENTS_ID = 'comments-container';
 
-    if (window.DISQUS) {
-      window.DISQUS.reset({
-        reload: true,
-        config() {
-          this.page.url = pageCanonicalUrl;
-          this.page.identifier = pageId;
-        },
-      });
-    } else {
-      window.disqus_config = () => {
-        this.page.url = pageCanonicalUrl;
-        this.page.identifier = pageId;
-      };
-      (function () {
-        // eslint-disable-next-line no-undef
-        const d = document;
-        const s = d.createElement('script');
-        s.src = Config.disqusScript;
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-      }());
-    }
-  }
+const Comments = () => {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://utteranc.es/client.js';
+    script.setAttribute('repo', 'tvqqq/tvqqq.github.io');
+    script.setAttribute('issue-term', 'pathname');
+    script.setAttribute('label', '💬');
+    script.setAttribute('theme', 'github-light');
+    script.setAttribute('crossorigin', 'anonymous');
+    script.async = true;
 
-  render() {
-    return (
-      <div>
-        <div id="disqus_thread" />
-      </div>
-    );
-  }
-}
+    const comments = document.getElementById(COMMENTS_ID);
+    if (comments) comments.appendChild(script);
 
-Comments.propTypes = {
-  pageCanonicalUrl: PropTypes.string.isRequired,
-  pageId: PropTypes.string.isRequired,
+    // This function will get called when the component unmounts
+    // To make sure we don't end up with multiple instances of the comments component
+    return () => {
+      const commentsId = document.getElementById(COMMENTS_ID);
+      if (commentsId) comments.innerHTML = '';
+    };
+  }, []);
+
+  return (
+    <>
+      <Divider plain style={{ fontSize: '24px', marginTop: '2rem' }}>💬</Divider>
+      <div id={COMMENTS_ID} />
+    </>
+  );
 };
 
 export default Comments;
