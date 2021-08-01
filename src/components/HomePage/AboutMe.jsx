@@ -1,7 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 import AboutTile from '../AbouTile';
-import ButtonCV from './ButtonCV';
 import Stacks from './Stacks';
 import { stripTags } from '../../utils/stripTags';
 
@@ -82,7 +81,6 @@ const AboutMe = () => {
         </Col>
       </Row>
       <Stacks />
-      <ButtonCV />
     </>
   );
 };

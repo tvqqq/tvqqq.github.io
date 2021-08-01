@@ -2,18 +2,21 @@ import React from 'react';
 import { Typography, Timeline } from 'antd';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faPhp, faLaravel, faWordpress, faHtml5, faCss3, faJs, faVuejs, faBootstrap,
+  faPhp, faLaravel, faWordpress, faHtml5, faCss3, faJs,
   faAws, faLinux, faDocker, faGithub,
 } from '@fortawesome/free-brands-svg-icons';
+import { LoadingOutlined } from '@ant-design/icons';
 import * as style from './home.module.less';
+import ButtonCV from './ButtonCV';
 
 const Stacks = () => {
   const { Text } = Typography;
+  const loadingIcon = <LoadingOutlined spin />;
   return (
     <>
       <div className="box">
         <h1 className="titleSeparate">Stacks</h1>
-        <Timeline pending={<Certificates />}>
+        <Timeline>
           <Timeline.Item>
             <Text strong className={style.stackHeader}>Programming Stacks</Text>
             <br />
@@ -24,8 +27,6 @@ const Stacks = () => {
               <FontAwesomeIcon icon={faHtml5} size="2x" fixedWidth />
               <FontAwesomeIcon icon={faCss3} size="2x" fixedWidth />
               <FontAwesomeIcon icon={faJs} size="2x" fixedWidth />
-              <FontAwesomeIcon icon={faVuejs} size="2x" fixedWidth />
-              <FontAwesomeIcon icon={faBootstrap} size="2x" fixedWidth />
             </div>
           </Timeline.Item>
           <Timeline.Item>
@@ -38,18 +39,24 @@ const Stacks = () => {
               <FontAwesomeIcon icon={faGithub} size="2x" fixedWidth />
             </div>
           </Timeline.Item>
+          <Timeline.Item dot={loadingIcon}>
+            <Text strong className={style.stackHeader}>Certificates</Text>
+            <br />
+          </Timeline.Item>
+          <Timeline.Item style={{ marginTop: 15 }}>
+            <Text
+              strong
+              className={style.stackHeader}
+              style={{ marginBottom: 5, display: 'block' }}
+            >
+              CV / Resume
+            </Text>
+            <ButtonCV />
+          </Timeline.Item>
         </Timeline>
       </div>
     </>
   );
 };
-
-const Certificates = () => (
-  <>
-    <strong className={style.stackHeader}>My Certificates</strong>
-    <br />
-    <i>To be coming soon!</i>
-  </>
-);
 
 export default Stacks;

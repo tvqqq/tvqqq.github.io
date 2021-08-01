@@ -35,9 +35,6 @@ const ButtonCV = () => {
              </Text>
              )}
         </Button>
-        <div>
-          <i><small>(Click on my CV for more details)</small></i>
-        </div>
       </div>
     </>
   );
