@@ -2,7 +2,7 @@
 title: "Nên gửi tiết kiệm hay đầu tư"
 path: blog/nen-gui-tiet-kiem-hay-dau-tu
 date: 2021-02-16
-tags: [finance]
+tags: [life, finance]
 cover: feature.jpg
 ---
 

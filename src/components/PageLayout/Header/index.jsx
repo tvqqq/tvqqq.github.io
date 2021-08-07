@@ -50,11 +50,6 @@ export default () => {
                 #life
               </Link>
             </li>
-            <li className={style.navItem}>
-              <Link to="/tags/finance" onClick={toggleMenu} activeClassName={style.anchorActive}>
-                #finance
-              </Link>
-            </li>
             {/* <li className={style.navItem}>
               <Link to="/tags" onClick={toggleMenu} activeClassName={style.anchorActive}>
                 Tags
