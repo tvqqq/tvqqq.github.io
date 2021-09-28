@@ -42,6 +42,13 @@ const Stacks = () => {
           <Timeline.Item dot={loadingIcon}>
             <Text strong className={style.stackHeader}>Certificates</Text>
             <br />
+            <a href="https://www.credly.com/badges/363949db-e7ad-4ce3-97a6-635705442c0d/public_url" target="_blank" rel="noreferrer">
+              <img
+                src="../../certificates/aws-certified-solutions-architect-associate.png"
+                width="160px"
+                alt="AWS-SAA"
+              />
+            </a>
           </Timeline.Item>
           <Timeline.Item style={{ marginTop: 15 }}>
             <Text
