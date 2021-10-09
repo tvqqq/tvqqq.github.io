@@ -69,7 +69,7 @@ const SpotifyPlaying = () => {
 
   const getSong = () => {
     fetch(`${process.env.GATSBY_API_URL}/spotify/playing`, {
-      mode: 'no-cors',
+      mode: process.env.GATSBY_DEV ? 'no-cors' : '',
     })
       .then((response) => (response.ok ? response.json() : false))
       .then((resData) => {
