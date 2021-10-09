@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   Affix, Layout, Row, Col, Space,
 } from 'antd';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faFacebookF, faInstagram, faTwitter, faGithub, faLinkedinIn, faTelegramPlane,
+  faFacebookF, faInstagram, faTwitter, faGithub, faLinkedinIn, faTelegramPlane, faSpotify,
 } from '@fortawesome/free-brands-svg-icons';
 import { faHandPeace, faCompass } from '@fortawesome/free-regular-svg-icons';
 
@@ -52,16 +52,55 @@ const DomContent = () => (
         <li className={`${style.contactBlockItem}`}>
           <Space size="middle">
             <span>
-              <FontAwesomeIcon icon={faCompass} size="lg" spin fixedWidth />
+              <FontAwesomeIcon icon={faCompass} size="lg" fixedWidth />
               {' '}
             </span>
             <span>Ho Chi Minh City aka Saigon, Vietnam</span>
           </Space>
         </li>
+        <SpotifyPlaying />
       </ul>
     </div>
   </aside>
 );
+
+const SpotifyPlaying = () => {
+  const [data, setData] = useState({});
+
+  const getSong = () => {
+    fetch(`${process.env.GATSBY_API_URL}/spotify/playing`)
+      .then((response) => response.json())
+      .then((resData) => {
+        setData(resData);
+      });
+  };
+
+  useEffect(() => {
+    getSong();
+    return () => {
+      setData({});
+    };
+  }, []);
+
+  return (
+    <>
+      { data.playing
+      && (
+      <li className={`${style.contactBlockItem}`}>
+        <Space size="middle">
+          <span>
+            <FontAwesomeIcon icon={faSpotify} size="lg" spin fixedWidth />
+            {' '}
+          </span>
+          <a href={data.url} target="_blank" rel="noreferrer">
+            {`${data.song} - ${data.artist}`}
+          </a>
+        </Space>
+      </li>
+      )}
+    </>
+  );
+};
 
 const Sidebar = (props) => {
   const [width] = useWindowSize();
