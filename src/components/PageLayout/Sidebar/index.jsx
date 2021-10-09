@@ -68,8 +68,10 @@ const SpotifyPlaying = () => {
   const [data, setData] = useState({});
 
   const getSong = () => {
-    fetch(`${process.env.GATSBY_API_URL}/spotify/playing`)
-      .then((response) => response.json())
+    fetch(`${process.env.GATSBY_API_URL}/spotify/playing`, {
+      mode: 'no-cors',
+    })
+      .then((response) => (response.ok ? response.json() : false))
       .then((resData) => {
         setData(resData);
       });
@@ -92,7 +94,7 @@ const SpotifyPlaying = () => {
             <FontAwesomeIcon icon={faSpotify} size="lg" spin fixedWidth />
             {' '}
           </span>
-          <a href={data.url} target="_blank" rel="noreferrer">
+          <a href={data.url} target="_blank" rel="noreferrer" style={{ whiteSpace: 'unset' }}>
             {`${data.song} - ${data.artist}`}
           </a>
         </Space>
