@@ -78,7 +78,10 @@ const SpotifyPlaying = () => {
   };
 
   useEffect(() => {
-    getSong();
+    const pathname = typeof window !== 'undefined' ? window.location.pathname : '';
+    if (pathname === '/') {
+      getSong();
+    }
     return () => {
       setData({});
     };
