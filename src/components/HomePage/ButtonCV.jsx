@@ -8,7 +8,7 @@ const ButtonCV = () => {
   const NAME_CV_PDF = 'TatViQuyen-CV.pdf';
   const [counter, setCounter] = useState(0);
   const openLink = () => {
-    window.open(NAME_CV_PDF, '_blank');
+    window.open('https://bit.ly/tvq-cv', '_blank');
     fetch(`${process.env.GATSBY_API_URL}/cv/visitors`)
       .then((response) => response.json())
       .then((data) => {
